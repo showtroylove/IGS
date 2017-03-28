@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>cbeFilterPopupMode</name>
+				<windowcaption>Select Filter Popup Mode</windowcaption>
+				<description>Allows you to select the filter popup display mode. When the Custom option is selected, the filter popup is manually populated with items, via the ShowFilterPopupDate event.</description>
+				<memberlist>GridColumn.OptionsFilter.FilterPopupMode property, GridView.ShowFilterPopupDate event</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	
+	</controls>
+</totalinfo>

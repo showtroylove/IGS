@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>gridControl1</name>
+				<windowcaption>XtraGrid Control</windowcaption>
+				<description>The MouseDown event is handled to call the DoShowMenu method if an end user right-clicks on the grid. The DoShowMenu checks whether a column button (red square) was right-clicked. If so, the custom context menu is invoked.<newline/>
+				The custom context menu is represented by the GridViewColumnButtonMenu class and allows end users to customize the visibility of the grid's columns. The context menu has two items: Columns and Runtime Column Customization. The first item is a sub item, it shows a sub menu that allows the grid's columns to be shown or hidden. The second item invokes the customization form.</description>
+				<memberlist/>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

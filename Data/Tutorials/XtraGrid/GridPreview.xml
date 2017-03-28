@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>comboBoxEdit1</name>
+			<windowcaption>Preview Field Name</windowcaption>
+			<description>Sets the grid's PreviewFieldName property which specifies the name of the field whose values are displayed within the preview sections.</description>
+			<memberlist>PreviewFieldName, DataSource, DataMember</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Show Preview</windowcaption>
+			<description>Enables or disables the grid view's ShowPreview option which specifies whether the preview sections are displayed.</description>
+			<memberlist>ShowPreview, OptionsView</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkEdit2</name>
+			<windowcaption>Auto Calc Preview Line Count</windowcaption>
+			<description>Enables or disables the grid view's AutoCalcPreviewLineCount option which specifies whether the number of text lines within the preview sections is calculated automatically depending upon their contents.</description>
+			<memberlist>AutoCalcPreviewLineCount, OptionsView</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkEdit3</name>
+			<windowcaption>Custom Draw Row Preview</windowcaption>
+			<description>Each time the editor's checked state changes, the Invalidate method is called which forces the view to invalidate itself. This raises the custom draw events. If the editor is checked, the CustomDrawRowPreview event is handled to custom paint the row preview section.</description>
+			<memberlist>Invalidate, CustomDrawRowPreview</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

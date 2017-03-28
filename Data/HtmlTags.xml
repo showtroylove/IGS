@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<HtmlTags xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HtmlTag>
+    <Tag>&lt;b&gt;</Tag>
+    <MarkupExample>&lt;b&gt;This is the bold text&lt;/b&gt;</MarkupExample>
+    <Description>Indicates bold text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;i&gt;</Tag>
+    <MarkupExample>&lt;i&gt;This is the italic text&lt;/i&gt;</MarkupExample>
+    <Description>Indicates italic text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;u&gt;</Tag>
+    <MarkupExample>&lt;u&gt;This is the underlined text&lt;/u&gt;</MarkupExample>
+    <Description>Indicates underline text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;font&gt;</Tag>
+    <MarkupExample>&lt;font size='5' color='green' face='Arial'&gt;This is the sample text&lt;/font&gt;</MarkupExample>
+    <Description>Defines the font, color and size.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;table&gt;</Tag>
+    <MarkupExample>&lt;table border='1'&gt;
+  &lt;tr&gt;
+    &lt;td&gt;cell #1.1&lt;/td&gt;
+    &lt;td&gt;cell #1.2&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;cell #2.1&lt;/td&gt;
+    &lt;td&gt;cell #2.2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</MarkupExample>
+    <Description>Defines the table presentation of content.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;h1&gt; to &lt;h6&gt;</Tag>
+    <MarkupExample>&lt;h3&gt;This is heading 3&lt;/h3&gt;</MarkupExample>
+    <Description>Indicates content headings.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;ul&gt;</Tag>
+    <MarkupExample>&lt;ul&gt;
+  &lt;li&gt;Item #1&lt;/li&gt;
+  &lt;li&gt;Item #2&lt;/li&gt;
+  &lt;li&gt;Item #3&lt;/li&gt;
+&lt;/ul&gt;</MarkupExample>
+    <Description>Defines a bulleted list.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;ol&gt;</Tag>
+    <MarkupExample>&lt;ol&gt;
+  &lt;li&gt;Item #1&lt;/li&gt;
+  &lt;li&gt;Item #2&lt;/li&gt;
+  &lt;li&gt;Item #3&lt;/li&gt;
+&lt;/ol&gt;</MarkupExample>
+    <Description>Defines a numbered list.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;sub&gt;</Tag>
+    <MarkupExample>&lt;span&gt;This text contains &lt;sub&gt;subscript&lt;/sub&gt; text&lt;/span&gt;</MarkupExample>
+    <Description>Indicates subscripted text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;sup&gt;</Tag>
+    <MarkupExample>&lt;span&gt;This text contains &lt;sup&gt;superscript&lt;/sup&gt; text&lt;/span&gt;</MarkupExample>
+    <Description>Indicates superscripted text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;p&gt;</Tag>
+    <MarkupExample>&lt;p align='right'&gt;First paragraph&lt;/p&gt;
+&lt;p align='left'&gt;Second paragraph&lt;/p&gt;
+&lt;p align='center'&gt;Third paragraph&lt;/p&gt;</MarkupExample>
+    <Description>Defines a paragraph.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;center&gt;</Tag>
+    <MarkupExample>&lt;center&gt;
+  &lt;p&gt;First paragraph&lt;/p&gt;
+  &lt;p&gt;Second paragraph&lt;/p&gt;
+  &lt;p&gt;Third paragraph&lt;/p&gt;
+&lt;/center&gt;</MarkupExample>
+    <Description>Defines a center-aligned content.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;strong&gt;</Tag>
+    <MarkupExample>&lt;strong&gt;This is the strong text&lt;/strong&gt;</MarkupExample>
+    <Description>Indicates a highlighted text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;em&gt;</Tag>
+    <MarkupExample>&lt;em&gt;This is the emphasized text&lt;/em&gt;</MarkupExample>
+    <Description>Indicates emphasized text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;span&gt;</Tag>
+    <MarkupExample>&lt;span style='background-color: red'&gt;This is the text&lt;/span&gt;</MarkupExample>
+    <Description>Defines a document section.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;pre&gt;</Tag>
+    <MarkupExample>&lt;pre&gt;This is the
+    preformatted 
+text&lt;/pre&gt;</MarkupExample>
+    <Description>Indicates preformatted text.</Description>
+  </HtmlTag>
+  <HtmlTag>
+    <Tag>&lt;q&gt;</Tag>
+    <MarkupExample>&lt;q&gt;This is the quotation&lt;/q&gt;</MarkupExample>
+    <Description>Indicates a quotation.</Description>
+  </HtmlTag>
+</HtmlTags>

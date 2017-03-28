@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The InitData method creates a master-detail relationship between the "Products" and "OrderDetails" tables in the NWind database. It creates a DataSet and two OleDbDataAdapter objects used to retrieve the data in the tables. Then the relationship which links the tables and enables navigating from the master table ("Products") to the detail table ("OrderDetails") is created. The Relations property of the DataSet object is used for this purpose.<newline/>
+			After these steps are complete, a DataView object bound to the master table in the DataSet is created and assigned to the grid's DataSource property.</description>
+			<memberlist>DataSource, EnableMasterViewMode</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

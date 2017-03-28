@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>label1</name>
+			<windowcaption>Update Count</windowcaption>
+			<description>The XtraGrid is a high speed control which can be used in realtime applications to display rapidly changing data. In this tutorial the cell values are changed in a random way. The "Update Count" label indicates how many times the XtraGrid has been updated.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

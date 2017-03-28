@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>comboBox1</name>
+			<windowcaption>Preview Field Name</windowcaption>
+			<description>Sets the tree list's PreviewFieldName property which specifies the name of the field whose values are displayed within the preview sections.</description>
+			<memberlist>PreviewFieldName, DataSource, DataMember</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Show Preview</windowcaption>
+			<description>Enables or disables the tree list's ShowPreview option which specifies whether the preview sections are displayed.</description>
+			<memberlist>ShowPreview, OptionsView</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkBox2</name>
+			<windowcaption>Auto Calc Preview Line Count</windowcaption>
+			<description>Enables or disables the tree list's AutoCalcPreviewLineCount option which specifies whether the number of text lines within the preview sections is calculated automatically depending upon their contents.</description>
+			<memberlist>AutoCalcPreviewLineCount, OptionsView</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkBox3</name>
+			<windowcaption>Get Preview Text</windowcaption>
+			<description>Each time the editor's checked state changes, the LayoutChanged() method is called which forces the tree list to invalidate itself. This raises the GetPreviewText event. If the editor is checked, the GetPreviewText event is handled to display custom text within preview sections.</description>
+			<memberlist>LayoutChanged, GetPreviewText</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

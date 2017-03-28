@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption></windowcaption>
+			<description>The ConditionsAdjustment() method implements conditional cell formatting. It creates and customizes the StyleFormatCondition objects that represent the style conditions and adds them to the view's FormatConditions collection.</description>
+			<memberlist>FormatConditions</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

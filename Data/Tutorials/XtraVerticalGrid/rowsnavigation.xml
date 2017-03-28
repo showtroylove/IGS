@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>button1</name>
+			<windowcaption>Focus First</windowcaption>
+			<description>Moves focus to the first row.</description>
+			<memberlist>FocusFirst</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button2</name>
+			<windowcaption>Focus Prev</windowcaption>
+			<description>Moves focus from the currently focused row to the previous row.</description>
+			<memberlist>FocusPrev</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button3</name>
+			<windowcaption>Focus Next</windowcaption>
+			<description>Moves focus from the currently focused row to the next row.</description>
+			<memberlist>FocusNext</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button4</name>
+			<windowcaption>Focus Last</windowcaption>
+			<description>Moves focus to the last row.</description>
+			<memberlist>FocusLast</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

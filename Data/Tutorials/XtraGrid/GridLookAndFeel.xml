@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Select Look and Feel</windowcaption>
+			<description>Selects the paint style which specifies how scrollbars, headers, borders, buttons and other elements are painted.</description>
+			<memberlist>SwitchPaintStyle, PaintStyleName, LookAndFeel</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

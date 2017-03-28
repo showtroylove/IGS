@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>simpleButton1</name>
+			<windowcaption>Show Style Conditions</windowcaption>
+			<description>Invokes the Style Conditions form that provides access to the tree list's format conditions. The property grid which is displayed to the right of the form displays the settings of the selected condition.</description>
+			<memberlist>FormatConditions</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Use custom style for the "Name" column only</windowcaption>
+			<description>Calls the LayoutChanged() method which recalculates all the ctree list's graphical information and redraws the control. As a result, the NodeCellStyle event is raised. If this check box is checked, the custom style is applied only to the Name column.</description>
+			<memberlist>LayoutChanged, NodeCellStyle</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>treeList1</name>
+			<windowcaption>XtraTreeList Control</windowcaption>
+			<description>The CustomDrawNodeCell event is handled to strike out the rejected projects.</description>
+			<memberlist>CustomDrawNodeCell</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

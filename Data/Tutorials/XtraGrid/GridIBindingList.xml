@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The XtraGrid is bound to the Records object which implements the IBindingList interface. The records are represented by the Record object which implements the IEditableObject interface. This allows the appending of a new row to be cancelled by pressing the ESC key while the new row has focus.<newline/>
+			The grid's ProcessGridKey event is handled to allow end users to delete the currently focused row by pressing the CTRL + DEL key combination.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

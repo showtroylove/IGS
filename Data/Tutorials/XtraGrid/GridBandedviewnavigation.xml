@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>                                   
+<controls>
+<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>UseAdvHorzNavigation</windowcaption>
+			<description>Enables or disables the view's UseAdvHorzNavigation option. This option affects the manner in which focus moves when end users press the left and right arrow keys.</description>
+			<memberlist>UseAdvHorzNavigation, UseAdvVertNavigation, OptionsNavigation</memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+<controlentry>
+		<control>
+			<name>checkEdit2</name>
+			<windowcaption>UseAdvVertNavigation</windowcaption>
+			<description>Enables or disables the view's UseAdvVertNavigation option. This option affects the manner in which focus moves when end users press the up and down arrow keys.</description>
+			<memberlist>UseAdvHorzNavigation, UseAdvVertNavigation, OptionsNavigation</memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+</controls>
+</totalinfo>                     

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Select the View</windowcaption>
+			<description>Selects the view to use to represent the data in the bound data source. Each time an end user selects a view the previously used view is automatically destroyed. The new view is created via the grid's CreateView method and assigned to the MainView property. Once the view has been created, the AddGridColumns() method is called to add columns which represent the fields in the bound data source. If the Grid view is used, the BestFitColumns() method is used to resize the columns so that they completely display their contents.</description>
+			<memberlist>MainView, CreateView, Views</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

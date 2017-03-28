@@ -1,0 +1,36 @@
+﻿<XtraSerializer version="16.2.0.0">
+  <Items>
+    <Item1 ItemKind="DiagramRoot" PageSize="884,835" Theme="Linear" SelectedStencils="BasicShapes, ArrowShapes" SugiyamaLayoutColumnSpacing="46">
+      <Children>
+        <Item1 Position="100,24" Size="100,75" FontSize="14" Content="Layer 1" ItemKind="DiagramShape" />
+        <Item2 Position="465,139" Size="100,75" FontSize="14" Content="Layer 2" ItemKind="DiagramShape" />
+        <Item3 Position="100,139" Size="100,75" FontSize="14" Content="Layer 2" ItemKind="DiagramShape" />
+        <Item4 Position="465,254" Size="100,75" FontSize="14" Content="Layer 3" ItemKind="DiagramShape" />
+        <Item5 Position="100,254" Size="100,75" FontSize="14" Content="Layer 3" ItemKind="DiagramShape" />
+        <Item6 Position="538,369" Size="100,75" FontSize="14" Content="Layer 4" ItemKind="DiagramShape" />
+        <Item7 Position="246,369" Size="100,75" FontSize="14" Content="Layer 4" ItemKind="DiagramShape" />
+        <Item8 Position="392,484" Size="100,75" FontSize="14" Content="Layer 5" ItemKind="DiagramShape" />
+        <Item9 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0" EndItem="1" BeginPoint="200,77.2534255981445" EndPoint="465,160.74658203125" />
+        <Item10 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="0" EndItem="2" BeginPoint="150,99" EndPoint="150,139" />
+        <Item11 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="1" EndItem="3" BeginPoint="515,214" EndPoint="515,254" />
+        <Item12 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="3" EndItem="5" BeginPoint="538.804321289063,329" EndPoint="564.195678710938,369" />
+        <Item13 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="5" EndItem="7" BeginPoint="540.391296386719,444" EndPoint="489.608703613281,484" />
+        <Item14 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="3" EndItem="6" BeginPoint="465,317.755706787109" EndPoint="346,380.244293212891" />
+        <Item15 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="2" EndItem="4" BeginPoint="150,214" EndPoint="150,254" />
+        <Item16 Position="538,484" Size="100,75" FontSize="14" Content="Layer 5" ItemKind="DiagramShape" />
+        <Item17 Position="684,484" Size="100,75" FontSize="14" Content="Layer 5" ItemKind="DiagramShape" />
+        <Item18 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="5" EndItem="15" BeginPoint="588,444" EndPoint="588,484" />
+        <Item19 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="5" EndItem="16" BeginPoint="635.608703613281,444" EndPoint="686.391296386719,484" />
+        <Item20 Position="246,254" Size="100,75" FontSize="14" Content="Layer 3" ItemKind="DiagramShape" />
+        <Item21 FontSize="14" Points="356,176.5 356,291.5" ItemKind="DiagramConnector" BeginItem="1" EndItem="19" BeginPoint="465,176.5" EndPoint="346,291.5" />
+        <Item22 FontSize="14" Points="(Empty)" Type="Straight" ItemKind="DiagramConnector" BeginItem="3" EndItem="7" BeginPoint="503.097839355469,329" EndPoint="453.902160644531,484" />
+        <Item23 Position="173,599" Size="100,75" FontSize="14" Content="Layer 6" ItemKind="DiagramShape" />
+        <Item24 FontSize="14" Points="150,589 223,589" ItemKind="DiagramConnector" BeginItem="4" EndItem="22" BeginPoint="150,329" EndPoint="223,599" />
+        <Item25 FontSize="14" Points="283,521.5 283,636.5" ItemKind="DiagramConnector" BeginItem="7" EndItem="22" BeginPoint="392,521.5" EndPoint="273,636.5" />
+        <Item26 Position="392,24" Size="100,75" FontSize="14" Content="Layer 1" ItemKind="DiagramShape" />
+        <Item27 BeginItemPointIndex="1" EndItemPointIndex="1" Points="575,291.5 575,61.5" ItemKind="DiagramConnector" BeginItem="3" EndItem="25" BeginPoint="565,291.5" EndPoint="492,61.5" />
+        <Item28 Points="442,176.5" ItemKind="DiagramConnector" BeginItem="25" EndItem="1" BeginPoint="442,99" EndPoint="465,176.5" />
+      </Children>
+    </Item1>
+  </Items>
+</XtraSerializer>

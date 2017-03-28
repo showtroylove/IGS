@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>spinEdit1</name>
+			<windowcaption>Indicator Width</windowcaption>
+			<description>Sets the grid view's IndicatorWidth property which specifies the width of the row indicator.</description>
+			<memberlist>IndicatorWidth</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Indicator Style</windowcaption>
+			<description>Selects how the row indicator is painted. If the second or third item is selected the row indicator is custom painted. The grid view's CustomDrawRowIndicator event is handled for this purpose.</description>
+			<memberlist>CustomDrawRowIndicator, Invalidate</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

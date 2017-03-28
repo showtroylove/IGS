@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>TreeButton Style</windowcaption>
+			<description>Specifies the style which is used to display category row tree buttons. If the ExplorerBar item is selected, tree buttons are displayed as an explorer button and are shown on the right. If the TreeView item is selected, tree buttons are displayed as a tree view button and are shown on the left.</description>
+			<memberlist>TreeButtonStyle</memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+</controls>
+</totalinfo>

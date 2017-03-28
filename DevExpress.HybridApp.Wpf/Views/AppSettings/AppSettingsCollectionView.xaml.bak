@@ -1,0 +1,158 @@
+﻿<UserControl x:Class="DevExpress.DevAV.Views.AppSettingsCollectionView"
+             xmlns="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:dxet="http://schemas.devexpress.com/winfx/2008/xaml/editors/themekeys"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"
+             xmlns:dxmvvm="http://schemas.devexpress.com/winfx/2008/xaml/mvvm"
+             xmlns:appSettings="clr-namespace:DevExpress.DevAV.ViewModels.AppSettings"
+             xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             xmlns:model="clr-namespace:IGS.Data.Model;assembly=IGSData"
+             xmlns:xtraEditors="clr-namespace:DevExpress.XtraEditors;assembly=DevExpress.XtraEditors.v16.1"
+             mc:Ignorable="d"
+             d:DesignHeight="400" 
+             d:DesignWidth="600" >
+             <!--DataContext="{dxmvvm:ViewModelSource appSettings:AppSettingsViewModel}">-->
+    <UserControl.DataContext>
+        <appSettings:AppSettingsViewModel/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <Style x:Key="inventoryColumnTotalSummaryContentStyle" TargetType="ContentPresenter">
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <StackPanel HorizontalAlignment="Right" Margin="{StaticResource totalSummaryMargin}">
+                            <TextBlock HorizontalAlignment="Right" Foreground="{StaticResource grayForegroundBrush}" TextTrimming="CharacterEllipsis" TextAlignment="Right" IsHitTestVisible="False">
+                                <Run Text="TOTAL INVENTORY" />
+                                <LineBreak />
+                                <Run Text="{Binding Column.TotalSummaryText, Mode=OneWay}" Foreground="{StaticResource blackForegroundBrush}" FontWeight="Bold" />
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="monthlySalesColumnTotalSummaryContentStyle" TargetType="ContentPresenter">
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <StackPanel HorizontalAlignment="Right"  Margin="{StaticResource totalSummaryMargin}">
+                            <TextBlock HorizontalAlignment="Right" Foreground="{StaticResource grayForegroundBrush}" TextTrimming="CharacterEllipsis" TextAlignment="Right" IsHitTestVisible="False">
+                                <Run Text="TOTAL SALES" />
+                                <LineBreak />
+                                <Run Text="{Binding Column.TotalSummaryText, Mode=OneWay}" Foreground="{StaticResource blackForegroundBrush}" FontWeight="Bold" />
+                            </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <dxmvvm:Interaction.Behaviors>
+        <dxwui:WinUIMessageBoxService/>
+    </dxmvvm:Interaction.Behaviors>
+    <DockPanel>
+        <dxwui:PageAdornerControl Header="AppSettings"  DockPanel.Dock="Top"/>
+        <dxwui:AppBar DockPanel.Dock="Bottom" ItemSpacing="5" HideMode="AlwaysVisible">
+            <dxwui:AppBarButton Label="New" Command="{Binding NewCommand}" HorizontalAlignment="Center" Glyph="pack://application:,,,/DevExpress.HybridApp.Wpf;component/Resources/Toolbar/New.png"/>
+            <dxwui:AppBarButton Label="Edit" Command="{Binding EditCommand}" CommandParameter="{Binding CurrentItem}" HorizontalAlignment="Center" Glyph="pack://application:,,,/DevExpress.HybridApp.Wpf;component/Resources/Toolbar/Edit.png"/>
+            <dxwui:AppBarSeparator/>
+            <dxwui:AppBarButton Label="Custom Filter" Command="{Binding CreateCustomFilterCommand}" HorizontalAlignment="Center" Glyph="pack://application:,,,/DevExpress.HybridApp.Wpf;component/Resources/Toolbar/CustomFilter.png"/>
+            <dxg:GridSearchControl x:Name="searchControl" View="{Binding ElementName=tableView}" Style="{DynamicResource {dxet:SearchControlThemeKey ThemeName=HybridApp, ResourceKey=StandaloneStyle}}"/>
+        </dxwui:AppBar>
+        <dxe:ComboBoxEdit IsTextEditable="False" ItemsSource="{Binding Environments}" Visibility="Hidden"/>
+        <dxlc:FlowLayoutControl ItemsSource="{Binding AppSettings}" Orientation="Horizontal" ItemSpace="12" LayerSpace="12" Background="WhiteSmoke" AnimateItemMoving="True">
+            <dxlc:FlowLayoutControl.ItemTemplate>
+                <DataTemplate DataType="model:AppSettings">
+                    <dxlc:GroupBox Header="{Binding}" Content="{Binding}" Width="200" Height="250" Padding="0" MaximizeElementVisibility="Visible"
+                                 FontFamily="Segoe UI Light" FontSize="14" Cursor="Hand" State="{Binding GroupState}" DisplayMode="Normal">
+                        <dxmvvm:Interaction.Behaviors>
+                            <dxmvvm:EventToCommand EventName="MouseLeftButtonUp" Command="{Binding GroupBox_MouseLeftButtonUpCommand}"/>
+                        </dxmvvm:Interaction.Behaviors>
+                        <dxlc:GroupBox.HeaderTemplate>
+                            <DataTemplate DataType="model:AppSettings">
+                                <TextBlock Margin="1">
+                                    <Run Text="{Binding AppName}" FontFamily="Segoe UI" />: <Run Text="{Binding AppId}" />
+                                </TextBlock>
+                            </DataTemplate>
+                        </dxlc:GroupBox.HeaderTemplate>
+                        <dxlc:GroupBox.ContentTemplate>
+                            <DataTemplate DataType="model:AppSettings">
+                                <Grid>
+                                    <Image Source="/DevExpress.HybridApp.Wpf;component/Images/AspxUtilities.png" HorizontalAlignment="Center"/>
+                                    <!--<Border Background="WhiteSmoke" VerticalAlignment="Top" HorizontalAlignment="Right">
+                                        <StackPanel Margin="10,0,10,1">
+                                            <TextBlock FontSize="18" Text="{Binding AppName}" Foreground="#3399FF" />
+                                        </StackPanel>
+                                    </Border>-->
+                                    <Border Background="#000000" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+                                        <StackPanel Margin="10,0,10,1">
+                                            <TextBlock FontSize="12" Text="Click upper right to edit" Foreground="White"/>
+                                        </StackPanel>
+                                    </Border>
+                                </Grid>
+                            </DataTemplate>
+                        </dxlc:GroupBox.ContentTemplate>
+                        <dxlc:GroupBox.MaximizedContentTemplate>
+                            <DataTemplate DataType="model:AppSettings">
+                                <dxlc:LayoutControl ItemSpace="12">
+                                    <dxlc:LayoutControl.GroupBoxStyle>
+                                        <Style TargetType="dxlc:GroupBox">
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="dxlc:GroupBox">
+                                                        <dx:GroupFrame Header="{TemplateBinding Header}" Content="{TemplateBinding Content}" />
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </dxlc:LayoutControl.GroupBoxStyle>
+                                    <dxlc:LayoutGroup>
+                                        <dxg:GridControl x:Name="gridControl" ItemsSource="{Binding Settings}" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True">
+                                            <dxg:GridControl.Background>
+                                                <ImageBrush ImageSource="/DevExpress.HybridApp.Wpf;component/Images/ASPxHTMLEditor.png" Stretch="None"/>
+                                            </dxg:GridControl.Background>
+                                            <dxg:GridControl.Columns>
+                                                <dxg:GridColumn FieldName="DetailId" ReadOnly="True" Width="50"/>
+                                                <dxg:GridColumn FieldName="Name" Width="100"/>
+                                                <dxg:GridColumn FieldName="Type" Width="100">
+                                                    <dxg:GridColumn.EditSettings>
+                                                        <dxe:ComboBoxEditSettings IsTextEditable="False" ItemsSource="{Binding Path=AppSettingsTypes}"/>
+                                                    </dxg:GridColumn.EditSettings>
+                                                </dxg:GridColumn>
+                                                <dxg:GridColumn FieldName="Value" MinWidth="500" />
+                                            </dxg:GridControl.Columns>
+                                            <dxg:GridControl.View>
+                                                <dxg:TableView x:Name="tableView" 
+                                                               ShowSearchPanelMode="Never"
+                                                               SearchControl="{Binding ElementName=searchControl}"
+                                                               AllowEditing="True"
+                                                               AllowPerPixelScrolling="True"                                                               
+                                                               AutoWidth="True"
+                                                               ShowGroupPanel="False"
+                                                               EditFormShowMode="InlineHideRow" 
+                                                               EnableImmediatePosting="True"
+                                                               AllowColumnMoving="False"
+                                                               IsColumnMenuEnabled="True"
+                                                               ShowTotalSummary="True"
+                                                               ShowIndicator="False"
+                                                               ShowFilterPanelMode="Never"
+                                                               NavigationStyle="Row"
+                                                               VerticalScrollbarVisibility="Auto"/>
+                                            </dxg:GridControl.View>
+                                        </dxg:GridControl>
+                                    </dxlc:LayoutGroup>
+                                </dxlc:LayoutControl>
+                            </DataTemplate>
+                        </dxlc:GroupBox.MaximizedContentTemplate>
+                    </dxlc:GroupBox>
+                </DataTemplate>
+            </dxlc:FlowLayoutControl.ItemTemplate>
+        </dxlc:FlowLayoutControl>
+    </DockPanel>
+</UserControl>

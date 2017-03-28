@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>gridControl1</name>
+				<windowcaption>Edit Data In Popup Form</windowcaption>
+				<description>If an end user clicks the Append or Edit button of the embedded data navigator the "Record Editor" dialog is shown. For this purpose, the data navigator's ButtonClick event is handled. The "Record Editor" dialog is represented by a separate popup window which allows end users to change the cell values of existing rows or to initialize the cell values of a newly added row.</description>
+				<memberlist>EmbeddedNavigator, UseEmbeddedNavigator, UpdateCurrentRow, CancelUpdateCurrentRow, InitNewRow</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

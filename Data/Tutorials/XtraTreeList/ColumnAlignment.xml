@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>comboBox1</name>
+			<windowcaption>Column</windowcaption>
+			<description>Once the column has been selected the values of its cells are aligned as specified by the "Alignment" combo box.</description>
+			<memberlist>HAligment</memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+<controlentry>
+		<control>
+			<name>comboBox2</name>
+			<windowcaption>Alignment</windowcaption>
+			<description>Allows the horizontal alignment of cell values to be selected. Once the desired alignment is selected, it's automatically applied to all the values of the cells in the column whose caption is selected in the "Column" combo box.</description>
+			<memberlist>HAligment</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>button1</name>
+			<windowcaption>Print Preview</windowcaption>
+			<description>Opens the Print Preview window which displays the tree list as it will appear when it's printed. The tree list can be previewed and printed if the printing assembly (DevExpress.XtraPrinting.vX.X.dll) can be loaded from the application directory or from the global assembly cache.</description>
+			<memberlist>ShowPrintPreview, IsPrintingAvailable, Print</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button2</name>
+			<windowcaption>Print Designer</windowcaption>
+			<description>Invokes the Print Designer which allows end-user to set the printing options.</description>
+			<memberlist>ShowPrintPreview, IsPrintingAvailable, Print</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

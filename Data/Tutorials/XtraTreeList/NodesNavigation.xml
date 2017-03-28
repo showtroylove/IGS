@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>button1</name>
+			<windowcaption>Move First</windowcaption>
+			<description>Moves focus to the first node.</description>
+			<memberlist>MoveFirst</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button2</name>
+			<windowcaption>Move Prev</windowcaption>
+			<description>Moves focus from the currently focused node to the previous node.</description>
+			<memberlist>MovePrev</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button3</name>
+			<windowcaption>Move Prev Visible</windowcaption>
+			<description>Moves focus from the currently focused node to the previous visible node.</description>
+			<memberlist>MovePrevVisible</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button4</name>
+			<windowcaption>Move Next</windowcaption>
+			<description>Moves focus from the currently focused node to the next node.</description>
+			<memberlist>MoveNext</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button5</name>
+			<windowcaption>Move Next Visible</windowcaption>
+			<description>Moves focus from the currently focused node to the next visible node.</description>
+			<memberlist>MoveNextVisible</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button6</name>
+			<windowcaption>Move Last</windowcaption>
+			<description>Moves focus to the last node.</description>
+			<memberlist>MoveLast</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>button7</name>
+			<windowcaption>Move Last Visible</windowcaption>
+			<description>Moves focus to the last visible node.</description>
+			<memberlist>MoveLastVisible</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

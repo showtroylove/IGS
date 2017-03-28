@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The ValidateRow event is handled to specify whether the data entered by end users into a row is valid and whether focus movement is allowed. The row's data is valid if the product isn't discontinued (the value in "Discontinued" column isn't true). If the data entered into a row is invalid, an error message is displayed just before the row loses focus.</description>
+			<memberlist>ValidateRow, Validating, SetColumnError</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

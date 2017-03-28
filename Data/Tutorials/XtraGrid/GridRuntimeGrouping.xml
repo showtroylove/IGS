@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>panel1</name>
+			<windowcaption>Grouped Columns</windowcaption>
+			<description>The check editors specify whether the view's data is grouped by the columns they correspond to. If the editor is checked, the view is grouped by the column to which the editor corresponds. The column's GroupIndex property is set to the number of grouped columns. As a result, the column is appeanded to the grouping column collection.</description>
+			<memberlist>GroupIndex, SortInfo, AllowGroup</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

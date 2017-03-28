@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>vGridControl1</name>
+			<windowcaption>XtraVerticalGrid Control</windowcaption>
+			<description>The vertical grid is bound to the data source which is represented by the Contacts class. The Contacts class is dervied from the System.Collections.ArrayList class.</description>
+			<memberlist>DataSource</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

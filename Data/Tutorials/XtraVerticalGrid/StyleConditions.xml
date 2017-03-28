@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Use custom style for the RowValueCells only</windowcaption>
+			<description>Calls the LayoutChanged() method which recalculates all the vertical grid's graphical information and redraws the control. As a result, the custom draw events are raised. If this check box is checked, only row cell values are custom painted.</description>
+			<memberlist>LayoutChanged, CustomDrawRowValueCell, CustomDrawRowHeaderCell</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

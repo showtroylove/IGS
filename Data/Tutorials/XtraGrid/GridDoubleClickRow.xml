@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo><controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The grid's DoubleClick event is handled to identify which grid element was clicked by an end user. If a data row was clicked, the values of all the cells in the row are displayed at the bottom of the form. If a grouped row was clicked, an "Empty" string is shown instead.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls></totalinfo>

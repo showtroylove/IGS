@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>cbMultiSelect</name>
+			<windowcaption>Multi Select</windowcaption>
+			<description>Enables or disables the multiple node selection functionality. If checked, the tree list's MultiSelect option is enabled and end users can select multiple rows. The indexes of the selected nodes are displayed in the "Selected Nodes" label at the bottom of the form. The number of currently selected nodes is displayed in the "Selected Nodes Count" label.</description>
+			<memberlist>MultiSelect, OptionsSelection</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>treeList1</name>
+			<windowcaption>XtraTreeList Control</windowcaption>
+			<description>The tree list's SelectionChanged event is handled to update the text which is displayed within the "Selected Nodes Count" and "Selected Nodes" labels.</description>
+			<memberlist>SelectionChanged, MultiSelect, OptionsSelection</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

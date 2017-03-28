@@ -1,0 +1,228 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <TaskChecklist>
+    <TaskID>1</TaskID>
+    <Caption>Describe Conventions and explicit attributes</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>1</TaskID>
+    <Caption>Describe the Fluent API</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>1</TaskID>
+    <Caption>Add a note into the Service section about thread safety.</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>3</TaskID>
+    <Caption>DPI-aware resize zones</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>3</TaskID>
+    <Caption>API to customize resize zones</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>4</TaskID>
+    <Caption>Implement the feature in the Data Grid</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>4</TaskID>
+    <Caption>Implement the feature in the Tree List</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>5</TaskID>
+    <Caption>Data Grid group row expansion animation</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>5</TaskID>
+    <Caption>Office 2016 inspired animation when expanding AccordionControl elements</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>5</TaskID>
+    <Caption>Office 2016 inspired animation and shadows when displaying popup windows in Bars and Ribbon controls</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>5</TaskID>
+    <Caption>Animation when displaying page categories</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>5</TaskID>
+    <Caption>Office 2016 inspired animation when displaying the Ribbon's BackstageView</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>7</TaskID>
+    <Caption>Public API</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>7</TaskID>
+    <Caption>Support design-time customization</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>9</TaskID>
+    <Caption>Improve Filtering UI Context editor behavior</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>9</TaskID>
+    <Caption>Update design-time wizard</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>9</TaskID>
+    <Caption>View Model enhancements</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>11</TaskID>
+    <Caption>Tile scrolling</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>13</TaskID>
+    <Caption>API</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>13</TaskID>
+    <Caption>Test scrolling performance</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>15</TaskID>
+    <Caption>Group row visualization</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>15</TaskID>
+    <Caption>Custom draw event</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>16</TaskID>
+    <Caption>Stacked Step Area</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>16</TaskID>
+    <Caption>Full Stacked Step Area</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>16</TaskID>
+    <Caption>Radar Range Area</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>18</TaskID>
+    <Caption>API</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>18</TaskID>
+    <Caption>Check painting in different themes</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>19</TaskID>
+    <Caption>DirectX11(Direct2D) Support</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>19</TaskID>
+    <Caption>Web Map Service Support</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>19</TaskID>
+    <Caption>Bing REST Services Support</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>20</TaskID>
+    <Caption>Multiple Layout algorithms: Slice and Dice, Squarified and Striped</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>20</TaskID>
+    <Caption>Ability to visualize flat and hierarchical data</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>20</TaskID>
+    <Caption>Ability to color TreeMap items using one of the following algorithms: gradient, group gradient, palette or range</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>20</TaskID>
+    <Caption>Configurable tooltips</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>20</TaskID>
+    <Caption>Item highlights and selection</Caption>
+    <Checked>false</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>20</TaskID>
+    <Caption>Appearance customization</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>4</TaskID>
+    <Caption>Documentation</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>7</TaskID>
+    <Caption>Collection editor</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>11</TaskID>
+    <Caption>Paint holidays</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>11</TaskID>
+    <Caption>Custom draw event</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>13</TaskID>
+    <Caption>Demo</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>13</TaskID>
+    <Caption>Blog post</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>15</TaskID>
+    <Caption>Support for two captions</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>15</TaskID>
+    <Caption>Ribbon UI support</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+  <TaskChecklist>
+    <TaskID>18</TaskID>
+    <Caption>Examples</Caption>
+    <Checked>true</Checked>
+  </TaskChecklist>
+</DocumentElement>

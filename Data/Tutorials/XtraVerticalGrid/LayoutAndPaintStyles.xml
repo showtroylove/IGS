@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Layout Style</windowcaption>
+			<description>Allows the layout style to be selected.</description>
+			<memberlist>LayoutStyle</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>spinEdit1</name>
+			<windowcaption>Bands Interval</windowcaption>
+			<description>If the Bands View layout is selected, specifies the distance between bands. This distance cannot be set to a value less than zero or greater than 30.</description>
+			<memberlist>LayoutStyle, BandsInterval</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

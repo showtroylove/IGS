@@ -1,0 +1,172 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Tasks>
+    <Caption>MVVM Core Enhancements</Caption>
+    <Description />
+    <Status>4</Status>
+    <Label>0</Label>
+    <Id>1</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>NavBar and Office Navigation Bar Enhancements</Caption>
+    <Description>Supports compact mode for NavBar and Office Navigation Bar. The Office Navigation Bar control needs to be docked to the NavBar control's bottom. Supports runtime resizing for the NavBar control.</Description>
+    <Status>2</Status>
+    <Label>2</Label>
+    <Id>2</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>SVG Icons</Caption>
+    <Description>Add support for vector images in SVG format.</Description>
+    <Status>2</Status>
+    <Label>3</Label>
+    <Id>24</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Scheduler Control - Agenda View</Caption>
+	<Description>Chronologically displays a list of appointments while grouping by day.</Description>
+    <Status>1</Status>
+    <Label>1</Label>
+    <Id>15</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Scaffolding. Many-To-Many View</Caption>
+    <Description>Create a view to edit entities with many-to-many relations.</Description>
+    <Status>1</Status>
+    <Label>3</Label>
+    <Id>23</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Docking Enhancements</Caption>
+    <Status>1</Status>
+    <Label>0</Label>
+    <Id>3</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Clipboard Management Enhancements</Caption>
+	<Description>The Copy Formatting feature allows end-users to copy the control's selection along with formatting settings (fonts, cell background and foreground) to the Clipboard in RTF, HTML and Biff8 (XLS) formats.</Description>
+    <Status>0</Status>
+    <Label>2</Label>
+    <Id>4</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Office Inspired Animations</Caption>
+	<Description>Extend the animation capabilities for WinForms Controls with additional Office-inspired animation modes.</Description>
+    <Status>0</Status>
+    <Label>1</Label>
+    <Id>5</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>App UI Manager - FreeLayout for WidgetView</Caption>
+	<Description>Free Layout Mode imposes no restrictions on how to organize your widgets and allows you to build any desired layout. This is the only layout mode that fully supports floating widgets.</Description>
+    <Status>0</Status>
+    <Label>0</Label>
+    <Id>6</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Accordion Control - Element Content Layout</Caption>
+    <Status>1</Status>
+    <Label>0</Label>
+    <Id>7</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Adorner UI Manager Enhancements</Caption>
+    <Status>1</Status>
+    <Label>2</Label>
+    <Id>8</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Filtering UI Enhancements</Caption>
+    <Status>4</Status>
+    <Label>0</Label>
+    <Id>9</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>PictureEdit - Trim Image by Mask/Shape</Caption>
+    <Status>2</Status>
+    <Label>1</Label>
+    <Id>10</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Calendar Control - Touch Mode</Caption>
+    <Status>2</Status>
+    <Label>2</Label>
+    <Id>11</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Instant Layout Assistant</Caption>
+    <Status>1</Status>
+    <Label>0</Label>
+    <Id>12</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Master-Detail Mode - Single Vertical Scrollbar for Multiple Views</Caption>
+    <Status>4</Status>
+    <Label>3</Label>
+    <Id>13</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Skin Performance and Memory Usage Optimization</Caption>
+    <Status>0</Status>
+    <Label>0</Label>
+    <Id>14</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Chart Control - Radar Range Area</Caption>
+    <Status>1</Status>
+    <Label>0</Label>
+    <Id>16</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Chart Control - Stacked Step Area</Caption>
+    <Status>0</Status>
+    <Label>2</Label>
+    <Id>17</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Diagram Control - SVG Shapes Support</Caption>
+    <Status>2</Status>
+    <Label>3</Label>
+    <Id>18</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Map Control - DirectX11(Direct2D) Support</Caption>
+    <Status>4</Status>
+    <Label>0</Label>
+    <Id>19</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>New TreeMap Control</Caption>
+    <Description>The new DevExpress WinForms TreeMap Control allows you to visualize flat or hierarchically structured data using nested rectangles that are sized and ordered by a quantitative variable.</Description>
+    <Status>4</Status>
+    <Label>0</Label>
+    <Id>20</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>RibbonControl Improvements</Caption>
+    <Description>Enhance design-time UX.</Description>
+    <Status>2</Status>
+    <Label>3</Label>
+    <Id>21</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Design-Time improvements for all controls</Caption>
+    <Description>Adapt DevExpress designers to support hi-resolution displays. Support the F1 shortcut for properties in the Designer’s Properties window. The 'Learn more online' action should navigate to a help topic that describes the selected control/component.</Description>
+    <Status>2</Status>
+    <Label>0</Label>
+    <Id>22</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Stub Glyphs for BarItems in Ribbon &amp; BarManager</Caption>
+    <Description>Implement "stub" caption-based glyphs for items in Toolbars and Ribbon UI. Provide properties to customize colors, font attributes, text alignment, text case mode and background shape.</Description>
+    <Status>3</Status>
+    <Label>0</Label>
+    <Id>25</Id>
+  </Tasks>
+  <Tasks>
+    <Caption>Visual Studio Inspired Waiting Indicator</Caption>
+    <Description>Implement a new VS-inspired waiting indicator for the ProgressPanel and TransitionManager components.</Description>
+    <Status>4</Status>
+    <Label>0</Label>
+    <Id>26</Id>
+  </Tasks>
+</DocumentElement>

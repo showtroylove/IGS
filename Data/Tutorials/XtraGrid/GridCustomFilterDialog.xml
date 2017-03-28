@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Custom Filter Dialog</windowcaption>
+			<description>Allows selecting which Custom Filter Dialog is used to specify the filter criteria for a column. If the first item is selected, the default Custom Filter Dialog is used. This allows the filter criteria which compares the values of the current column with the specified values to be set.<newline></newline>
+If the second item is selected, the advanced Custom Filter Dialog is used. This extends the functionality of the default dialog by adding the ability to compare the current column's values with the values of another column.<newline></newline>
+If the third item is selected, the advanced Custom Filter Dialog is used but the current column's values can only be compared with the values of the visible columns.</description>
+			<memberlist>UseNewCustomFilterDialog, CustomFilterDialog, FilterInfo</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

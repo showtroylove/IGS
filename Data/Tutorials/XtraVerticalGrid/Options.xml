@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkedListBox1</name>
+			<windowcaption>View Options</windowcaption>
+			<description>Lists the vertical grid's display options. These options can be accessed via the OptionsView property. The ItemCheck event is handled to enable or disable the option which corresponds to the item whose checked state has been changed.</description>
+			<memberlist>OptionsView</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkedListBox2</name>
+			<windowcaption>Behaviour Options</windowcaption>
+			<description>Lists the vertical grid's behaviour options. These options can be accessed via the OptionsBehavior property. The ItemCheck event is handled to enable or disable the option which corresponds to the item whose checked state has been changed.</description>
+			<memberlist>OptionsBehavior</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

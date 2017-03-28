@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Custom Styles</windowcaption>
+			<description>If checked, the rows are painted using custom appearance settings that are applied within the custom draw event handlers.</description>
+			<memberlist>CustomDrawRowHeaderCell, CustomDrawSeparator, CustomDrawRowHeaderIndent</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>comboBox1</name>
+			<windowcaption>Separator Kind</windowcaption>
+			<description>Allows the manner in which cell separators will be displayed within multi editor rows to be specified - as a vertical line or as a custom string which is defined by the SeparatorString property (Separator String text box).</description>
+			<memberlist>SeparatorKind, SeparatorString</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>textBox1</name>
+			<windowcaption>Separator String</windowcaption>
+			<description>Allows the separator string for the focused row to be specified. If the SeparatorKind property is set to the SeparatorKind.String value (String item is selected within the Separator Kind combo box), cell separators are represented by a string which is specified by the SeparatorString property.</description>
+			<memberlist>SeparatorString, SeparatorKind</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

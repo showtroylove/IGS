@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>A summary is a brief bit of information about groups of rows or particular columns (the number of records, the maximum value, etc.). Summaries can be displayed within the view footer, group row or group footer. The summaries are represented by GridSummaryItem objects or their descendants.<newline/>
+			In this tutorial four group summary items are created and customized at design time using the XtraGrid Designer. These summary items can be accessed via the view's GroupSummary property. The footer summaries are displayed for the "Product Name", "Unit Price" and "Units In Stock" columns and are specified by the column's SummaryItem property.</description>
+			<memberlist>GroupSummary, SummaryItem, ShowFooter</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

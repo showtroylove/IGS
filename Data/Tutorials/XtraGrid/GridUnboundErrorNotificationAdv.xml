@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>Grid View</windowcaption>
+			<description>The Person class implements the IDXDataErrorInfo interface and returns the error information via the GetPropertyError method. Errors are indicated as error icons, which can be hovered over to display error text.</description>
+			<memberlist>IDXDataErrorInfo</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

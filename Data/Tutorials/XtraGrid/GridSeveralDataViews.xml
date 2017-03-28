@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Synchronize Focused Row </windowcaption>
+			<description>Specifies to which DataView object the second grid control is bound. If checked, the grid is bound to the same DataView as the first grid control. This synchronizes the focused rows in both grid controls. Otherwise, if unchecked, the grids are bound to different DataView objects and the focused rows are not synchronized as a result.</description>
+			<memberlist>FocusedRowHandle</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

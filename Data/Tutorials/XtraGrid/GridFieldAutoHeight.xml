@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Card Scroll Buttons Availability</windowcaption>
+			<description>Selects whether card scroll buttons should always be hidden, always visible or visible only when needed.</description>
+			<memberlist>VertScrollVisibility</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The card view's FieldAutoHeight option is enabled at design time. This options specifies whether the height of card fields is calculated automatically depending upon the cell's contents and only affects card fields which use the MemoEdit or PictureEdit editors.</description>
+			<memberlist>FieldAutoHeight, OptionsBehavior</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

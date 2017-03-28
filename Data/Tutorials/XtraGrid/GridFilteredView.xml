@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>checkEdit1</name>
+				<windowcaption>Apply DataView filter string</windowcaption>
+				<description>Specifies whether the additional expression is used to specify how rows in a bound DataView object are to be filtered. If checked, only the rows whose values in "Discount" column are not zeroes are shown. This filter criteria is combined with the filter settings applied by the end user via the filter dropdown list at runtime.</description>
+				<memberlist>AllowFilter, ActiveFilter, FilterInfo</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+		<controlentry>
+			<control>
+				<name>gridControl1</name>
+				<windowcaption>XtraGrid Control</windowcaption>
+				<description>The XtraGrid control is bound to a data source which is represented by the DataView descendant (FilteredDataView class). This class introduces the AdditionalRowFilter property which allows an additional filter criteria to be specified.</description>
+				<memberlist>DataSource</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

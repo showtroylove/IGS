@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The CustomRowCellEdit event is handled to provide in-place editors for the individual cells within a view. The repository items which are assigned to the cells were added to the grid's internal repository at design time.</description>
+			<memberlist>CustomRowCellEdit, RowCellDefaultAlignment, RepositoryItems</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

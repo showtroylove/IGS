@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkEditor1</name>
+			<windowcaption>ILists / Data Tables</windowcaption>
+			<description>Specifies which runtime created data source the grid control is bound to. If checked, the grid is bound to the Records object which is represented by the ArrayList class. Otherwise, if unchecked, the grid is bound to the DataRecords object which is represented by the DataTable class. Both data sources support an IRelationList interface which allows the detail data to be loaded dynamically.</description>
+			<memberlist>DataSource, IRelationList</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

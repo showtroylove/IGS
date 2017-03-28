@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Alpha Blending</windowcaption>
+			<description>Enables or disables the alpha blending feature provided by the XtraGridBlending component. Alpha blending allows various transparency settings to be specified for the grid's elements.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+<controlentry>
+		<control>
+			<name>simpleButton1</name>
+			<windowcaption>Adjust...</windowcaption>
+			<description>Invokes the AlphaStyle Editor which allows the grid control's background image to be specified and the transparency settings of all its elements.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>imageComboBoxEdit1</name>
+			<windowcaption>Smart Detail Expand Button Mode</windowcaption>
+			<description>This image combo box allows you to select how master-detail expand buttons are painted.</description>
+			<memberlist>OptionsDetail, SmartDetailExpandButtonMode</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Enable Detail ToolTip</windowcaption>
+			<description>This check box controls whether a detail tooltip is displayed when pointing to a master row's expand button.</description>
+			<memberlist>OptionsDetail, EnableDetailToolTip, EnableMasterViewMode, ShowDetailButtons</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+<controlentry>
+		<control>
+			<name>checkEdit2</name>
+			<windowcaption>Enable Detail ToolTip</windowcaption>
+			<description>This check box controls the visibility of detail tabs. Detail tabs are displayed only when the view has several details. They enable end users to switch to a detail view by clicking the corresponding tab.</description>
+			<memberlist>OptionsDetail, EnableMasterViewMode, ShowDetailTabs</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

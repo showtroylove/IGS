@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+	<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Allow Change Column Parent</windowcaption>
+			<description>Enables or disables the view's AllowChangeColumnParent option which specifies whether end users can move columns between bands.</description>
+			<memberlist>AllowChangeColumnParent, AllowMoveColumns, OptionsCustomization</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkEdit2</name>
+			<windowcaption>Allow Change Band Parent</windowcaption>
+			<description>Enables or disables the view's AllowChangeBandParent option which specifies whether end users can reorder bands.</description>
+			<memberlist>AllowChangeBandParent, OptionsCustomization</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkEdit3</name>
+			<windowcaption>Show Bands In Customization Form</windowcaption>
+			<description>Enables or disables the view's ShowBandsInCustomizationForm option which specifies whether the headers of hidden bands can be displayed within the customization form.</description>
+			<memberlist>ShowBandsInCustomizationForm, OptionsCustomization</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>simpleButton1</name>
+			<windowcaption>Show/Hide Columns Selector</windowcaption>
+			<description>Shows the Customization Form if it was previously hidden or hides the form if it's currently displayed. The customization form provides facilities for adding and removing columns and bands from a view at runtime using drag and drop.</description>
+			<memberlist>ColumnsCustomization, CustomizationForm, ShowCustomizationForm, HideCustomizationForm</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The InitData() method binds the grid control to data created at runtime. If the IRelationList tab is selected, the grid control is bound to the IRelationListRecords object which implements the IRelationList interface. Otherwise, if the 'Nested Collection' tab is selected, the grid is bound to the NestedRecords object which implements the IList interface.</description>
+			<memberlist>DataSource, MainView, PopulateColumns</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

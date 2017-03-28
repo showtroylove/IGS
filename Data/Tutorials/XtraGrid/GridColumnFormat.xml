@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>When a form is being loaded, the grid view is populated with columns using the CreateGridColumn method. This method creates a column, adds it to the view's Columns collection, binds it to the specified field in the bound data source, specifies the column's caption and applies formatting to its cell values. For instance, numeric formatting is applied to the values displayed within the first, second and third columns. The column's formatting settings are specified by the DisplayFormat property represented by the FormatInfo class.</description>
+			<memberlist>DisplayFormat, FormatInfo</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

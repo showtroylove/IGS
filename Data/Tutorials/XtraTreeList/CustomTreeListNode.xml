@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>treeList1</name>
+			<windowcaption>XtraTreeList Control</windowcaption>
+			<description>In this tutorial, tree list nodes are represented by the CustomTLNode class. This class derives from the TreeListNode class and overrides the Item property.</description>
+			<memberlist>AppendNode, DeleteNode</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

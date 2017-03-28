@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Resize Row Headers</windowcaption>
+			<description>If checked, end-users can resize row headers.</description>
+			<memberlist>ResizeRowHeaders</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkBox2</name>
+			<windowcaption>Resize Row Values</windowcaption>
+			<description>If checked, end-users can change the width of the records by dragging their edges.</description>
+			<memberlist>ResizeRowValues</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>checkBox3</name>
+			<windowcaption>Resize Header Panel</windowcaption>
+			<description>If checked, end-users can change the row header panel's width.</description>
+			<memberlist>ResizeHeaderPanel</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>spinEdit1</name>
+			<windowcaption>Record Width</windowcaption>
+			<description>Specifies the width of records.</description>
+			<memberlist>RecordWidth</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>spinEdit2</name>
+			<windowcaption>Row Header Width</windowcaption>
+			<description>Specifies the width of row headers.</description>
+			<memberlist>RowHeaderWidth</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>spinEdit3</name>
+			<windowcaption>Records Interval</windowcaption>
+			<description>Specifies the distance between records.</description>
+			<memberlist>RecordsInterval</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>comboBox2</name>
+			<windowcaption>Alignment</windowcaption>
+			<description>Allows the alignement of cell values within the row which is selected within the Row combo box to be specified.</description>
+			<memberlist>Appearance, TextOptions, HAlignment</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

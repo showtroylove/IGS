@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>vGridControl1</name>
+			<windowcaption>XtraVerticlGrid Control</windowcaption>
+			<description>The InitData() method creates a new instance of the System.Data.DataSet class, retrieves data from the Cars.xml file and binds it to the vertical grid.</description>
+			<memberlist>DataSource, DataMember</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>radioGroup1</name>
+				<windowcaption>Calc Row Height</windowcaption>
+				<description>Selects how the height of the rows is calculated. If the first item is selected, the height of each row is specified individually by the CalcRowHeight event handler. In this case, the height of individual rows is set to the value in the "RowHeight" column (this column is hidden).<newline></newline>
+			If the second item is selected, the height of each row is automatically adjusted to completely display the contents of its cells.<newline></newline>
+			If "None" is selected, the height of the rows is specified by the view's RowHeight property. All rows will have the same height which cannot be less than that required by a single line of text. The height required is automatically calculated based upon the appearance settings applied.</description>
+				<memberlist>CalcRowHeight, RowHeight, RowAutoHeight, GroupRowHeight</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

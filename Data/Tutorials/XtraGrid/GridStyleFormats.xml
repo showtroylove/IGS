@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>listBoxControl1</name>
+			<windowcaption>Style Formats</windowcaption>
+			<description>Lists the style schemes that can be applied to a view. After an end user has selected the desired item, the LoadScheme method is called which applies the style scheme (which the selected item corresponds to) to the view. This allows the appearance of all the elements in the view to be changed at the same time.</description>
+			<memberlist>XAppearances</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Alpha Blending</windowcaption>
+			<description>Enables or disables the alpha blending feature provided by the XtraVertGridBlending component. Alpha blending allows various transparency settings to be specified for the vertical grid's elements.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+<controlentry>
+		<control>
+			<name>button1</name>
+			<windowcaption>Adjustment...</windowcaption>
+			<description>Invokes the AlphaStyle Editor which allows the vertical grid's background image and the transparency settings of all its elements to be specified.</description>
+			<memberlist></memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+</controls>
+</totalinfo>

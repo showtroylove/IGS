@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>simpleButton1</name>
+			<windowcaption>Add new row</windowcaption>
+			<description>Adds a new record (row) to the view's underlying data source. If the data within a view is grouped the row is added to the same group as the currently focused row. Otherwise, if the data isn't grouped, the new row is appended to the data rows.</description>
+			<memberlist>AddNewRow, DeleteRow, GetRowCellValue, SetRowCellValue, UpdateCurrentRow</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

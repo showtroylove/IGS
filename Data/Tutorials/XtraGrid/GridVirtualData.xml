@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Use Data Store</windowcaption>
+			<description>Sets the UseDataStore property of the VirtualList object which is bound to the grid control. If this property is set to true (the check editor is checked), data stored in the bound data source is displayed within a view and can be edited by end users. Otherwise, if set to false (the check editor is unchecked), the row and column indexes are displayed within row cells and this cannot be modified by end users. See the VirtualList class implementation for details.</description>
+			<memberlist>LayoutChanged</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>simpleButton1</name>
+			<windowcaption>Set Row/Column count</windowcaption>
+			<description>Sets the number of records and columns in a bound data source as specified by the "Rows" and "Columns" spin editors, respectively and updates the grid's data source.</description>
+			<memberlist>DataSource, MainView, PopulateColumns</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

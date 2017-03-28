@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>treeList1</name>
+			<windowcaption>XtraTreeList Control</windowcaption>
+			<description>When a form is being loaded, the tree list is populated with columns using the CreateColumn method. This method creates a column, adds it to the tree list's Columns collection, binds it to the specified field in the bound data source, specifies the column's caption and applies formatting to its cell values. The column's formatting settings are specified by the Format property represented by the FormatInfo class.</description>
+			<memberlist>Format, FormatInfo</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

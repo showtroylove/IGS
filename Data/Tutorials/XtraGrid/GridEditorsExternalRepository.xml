@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>gridControl1</name>
+				<windowcaption>XtraGrid Control</windowcaption>
+				<description>The InitEditors() method creates the repository items that hold the settings and event handlers for editors of particular types and adds them to the external editor repository (the PersistentRepository component). The repository items stored in it can be used by multiple controls. The grid control is bound to the PersistentRepository via the ExternalRepository property. After the external repository has been assigned to the grid, the repository items are bound to the grid's columns.</description>
+				<memberlist>ExternalRepository, PersistentRepository, ColumnEdit</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

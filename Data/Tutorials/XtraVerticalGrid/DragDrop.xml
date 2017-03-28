@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>checkBox1</name>
+			<windowcaption>Drag Row Headers</windowcaption>
+			<description>Controls whether end-users are allowed to move rows using drag-and-drop.</description>
+			<memberlist>DragRowHeaders</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>vGridControl1</name>
+			<windowcaption>XtraVerticalGrid Control</windowcaption>
+			<description>Dragging and dropping rows is implemented by handling the ProcessDragRow and EndDragRow events.</description>
+			<memberlist>ProcessDragRow, EndDragRow</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

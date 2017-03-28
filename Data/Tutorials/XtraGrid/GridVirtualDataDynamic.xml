@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The grid control is bound to the VirtualList object which implements the IBindingList interface. This interface provides the AddNew() and AddColumn() methods that allow a new record and column to be added. If dynamic row and column adding is allowed (the corresponding check editors are checked), these methods are called to add a new row or column each time a user focuses the last row or column, respectively. The FocusedRowChanged and FocusedColumnChanged events are handled for this purpose.</description>
+			<memberlist>DataSource, IBindingList</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

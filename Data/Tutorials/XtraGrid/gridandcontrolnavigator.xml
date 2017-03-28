@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Use Embedded Navigator</windowcaption>
+			<description>Enables or disables the grid's UseEmbeddedNavigator option which specifies whether the embedded data navigator is displayed at the bottom of the grid control. If this option is disabled, the external navigator control is shown outside of the grid control instead.</description>
+			<memberlist>UseEmbeddedNavigator, EmbeddedNavigator, NavigatableControl</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

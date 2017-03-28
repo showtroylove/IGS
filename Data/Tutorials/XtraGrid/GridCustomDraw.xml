@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>Custom Draw</windowcaption>
+			<description>The XtraGrid provides Custom Draw events that allow the grid's elements to be manually painted. This tutorial demonstrates how to custom paint the grid view's elements (column headers, row indicators, group rows, footers, etc.). The code below shows the CustomDrawColumnHeader event handler which custom paints the column headers.</description>
+			<memberlist>CustomDrawColumnHeader, CustomDrawRowIndicator, CustomDrawGroupPanel, CustomDrawGroupRow, CustomDrawRowFooter, CustomDrawRowFooterCell, RowCellStyle</memberlist>
+			<dtimage></dtimage>
+		</control>
+</controlentry>
+</controls>
+</totalinfo>

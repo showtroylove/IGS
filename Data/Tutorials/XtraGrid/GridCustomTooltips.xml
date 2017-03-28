@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>The ToolTipController's GetActiveObjectInfo event is handled to display custom hints when an end-user hovers with the mouse over the view's elements (cells, column headers, indicator, group panel).</description>
+			<memberlist>ToolTipController, GetActiveObjectInfo</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

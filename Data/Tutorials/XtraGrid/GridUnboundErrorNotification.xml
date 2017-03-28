@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>Grid View</windowcaption>
+			<description>The grid view's ValidateRow event is handled to automatically validate all the rows within the view when a row is about to lose focus. The ValidateData() method checks the validity of the row's data. If the row's data isn't valid, the entire row and all its cells that have invalid values are marked with error icons.</description>
+			<memberlist>ValidateRow, ValidateEditor, InvalidRowException, SetColumnError</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

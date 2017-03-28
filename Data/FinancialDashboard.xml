@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Financial Dashboard" />
+  <DataConnections>
+    <DataConnection Name="FinanceDemoConnection" ConnectionString="Data Source=(localdb)\v11.0;Initial Catalog=FinancialDemo;Integrated Security=True" />
+  </DataConnections>
+  <DataSources>
+    <SqlDataSource ComponentName="Profits">
+      <Name>Financial Demo</Name>
+      <Connection Name="FinanceDemoConnection" ConnectionString="Data Source=(localdb)\mssqllocaldb;Initial Catalog=FinancialDemo;Integrated Security=True" />
+      <Query Type="TableQuery" Name="Profits">
+        <Table Name="TradeData">
+          <Column Name="Date" />
+          <Column Name="Ticker" />
+          <Column Name="Volume" />
+          <Column Name="FixedProfit" />
+          <Column Name="PotentialProfit" />
+        </Table>
+        <Table Name="CurrentStocks">
+          <Column Name="Category" />
+        </Table>
+        <Table Name="Tickers" />
+        <Relation Type="Inner" Parent="TradeData" Nested="CurrentStocks">
+          <KeyColumn Parent="Ticker" Nested="Ticker" />
+        </Relation>
+        <Relation Type="Inner" Parent="TradeData" Nested="Tickers">
+          <KeyColumn Parent="Ticker" Nested="Ticker" />
+        </Relation>
+      </Query>
+      <Query Type="TableQuery" Name="Current Assets">
+        <Table Name="CurrentAssets">
+          <Column Name="Date" />
+          <Column Name="Ticker" />
+          <Column Name="Volume" />
+          <Column Name="BuyValue" />
+          <Column Name="SellValue" />
+          <Column Name="PotentialProfit" />
+        </Table>
+        <Table Name="Tickers">
+          <Column Name="Description" />
+        </Table>
+        <Relation Type="Inner" Parent="CurrentAssets" Nested="Tickers">
+          <KeyColumn Parent="Ticker" Nested="Ticker" />
+        </Relation>
+      </Query>
+      <Query Type="TableQuery" Name="Stock History">
+        <Parameter Name="startTime" Type="DevExpress.DataAccess.Expression">(System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)([Parameters.startTime])</Parameter>
+        <Parameter Name="endTime" Type="DevExpress.DataAccess.Expression">(System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)([Parameters.endTime])</Parameter>
+        <Filter>[DailyData.Date] &gt; ?startTime And [DailyData.Date] &lt; ?endTime</Filter>
+        <Table Name="DailyData">
+          <Column Name="Date" />
+          <Column Name="Open" />
+          <Column Name="High" />
+          <Column Name="Low" />
+          <Column Name="Close" />
+          <Column Name="Volume" />
+          <Column Name="Ticker" />
+        </Table>
+        <Table Name="Tickers">
+          <Column Name="Description" />
+        </Table>
+        <Relation Type="Inner" Parent="DailyData" Nested="Tickers">
+          <KeyColumn Parent="Ticker" Nested="Ticker" />
+        </Relation>
+      </Query>
+      <Query Type="TableQuery" Name="Assets Structure">
+        <Table Name="AssetsStructure">
+          <Column Name="Category" />
+          <Column Name="Value" />
+        </Table>
+      </Query>
+      <Query Type="TableQuery" Name="Current Stocks">
+        <Table Name="CurrentStocks">
+          <Column Name="Date" />
+          <Column Name="Open" />
+          <Column Name="High" />
+          <Column Name="Low" />
+          <Column Name="Close" />
+          <Column Name="Ticker" />
+          <Column Name="Category" />
+        </Table>
+        <Table Name="Tickers">
+          <Column Name="Description" />
+        </Table>
+        <Relation Type="Inner" Parent="CurrentStocks" Nested="Tickers">
+          <KeyColumn Parent="Ticker" Nested="Ticker" />
+        </Relation>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="Financial Demo">
+          <View Name="Assets Structure">
+            <Field Name="Category" Type="String" />
+            <Field Name="Value" Type="Double" />
+          </View>
+          <View Name="Current Assets">
+            <Field Name="Date" Type="DateTime" />
+            <Field Name="Ticker" Type="String" />
+            <Field Name="Volume" Type="Int32" />
+            <Field Name="BuyValue" Type="Double" />
+            <Field Name="SellValue" Type="Double" />
+            <Field Name="PotentialProfit" Type="Double" />
+            <Field Name="Description" Type="String" />
+          </View>
+          <View Name="Current Stocks">
+            <Field Name="Date" Type="DateTime" />
+            <Field Name="Open" Type="Double" />
+            <Field Name="High" Type="Double" />
+            <Field Name="Low" Type="Double" />
+            <Field Name="Close" Type="Double" />
+            <Field Name="Ticker" Type="String" />
+            <Field Name="Category" Type="String" />
+            <Field Name="Description" Type="String" />
+          </View>
+          <View Name="Profits">
+            <Field Name="Date" Type="DateTime" />
+            <Field Name="Ticker" Type="String" />
+            <Field Name="Volume" Type="Int32" />
+            <Field Name="FixedProfit" Type="Double" />
+            <Field Name="PotentialProfit" Type="Double" />
+            <Field Name="Category" Type="String" />
+          </View>
+          <View Name="Stock History">
+            <Field Name="Date" Type="DateTime" />
+            <Field Name="Open" Type="Double" />
+            <Field Name="High" Type="Double" />
+            <Field Name="Low" Type="Double" />
+            <Field Name="Close" Type="Double" />
+            <Field Name="Volume" Type="Int32" />
+            <Field Name="Ticker" Type="String" />
+            <Field Name="Description" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <CalculatedFields>
+        <CalculatedField Name="Profit" Expression="[SellValue] - [BuyValue]" DataType="Decimal" DataMember="Current Assets" />
+      </CalculatedFields>
+    </SqlDataSource>
+  </DataSources>
+  <Parameters>
+    <Parameter Name="startTime" Type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Value="2015-01-01T00:00:00" Description="From date" />
+    <Parameter Name="endTime" Type="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Value="2016-01-01T00:00:00" Description="To date" />
+  </Parameters>
+  <Items>
+    <Card ComponentName="cardDashboardItem1" Name="Portfolio" ShowCaption="false" DataSource="Profits" DataMember="Current Stocks" IsMasterFilterCrossDataSource="true" ContentArrangementMode="FixedRowCount" ContentLineCount="1">
+      <InteractivityOptions MasterFilterMode="Single" />
+      <DataItems>
+        <Measure DataMember="Open" SummaryType="Average" UniqueName="DataItem2" />
+        <Dimension DataMember="Ticker" UniqueName="DataItem3" />
+        <Measure DataMember="Close" SummaryType="Average" UniqueName="DataItem1">
+          <NumericFormat FormatType="Currency" />
+        </Measure>
+        <Dimension DataMember="Description" UniqueName="DataItem0" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem0" />
+        <SeriesDimension UniqueName="DataItem3" />
+      </SeriesDimensions>
+      <Card>
+        <ActualValue UniqueName="DataItem1" />
+        <TargetValue UniqueName="DataItem2" />
+      </Card>
+    </Card>
+    <Chart ComponentName="chartDashboardItem1" Name="Realized Profit vs Book Profit" DataSource="Profits" DataMember="Profits" IsMasterFilterCrossDataSource="true">
+      <DataItems>
+        <Measure DataMember="FixedProfit" UniqueName="DataItem0">
+          <NumericFormat FormatType="Currency" />
+        </Measure>
+        <Dimension DataMember="Date" DateTimeGroupInterval="DayMonthYear" UniqueName="DataItem2" />
+        <Measure DataMember="PotentialProfit" UniqueName="DataItem1">
+          <NumericFormat FormatType="Currency" />
+        </Measure>
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem2" />
+      </Arguments>
+      <ColorSheme>
+        <Entry DataSource="Profits" DataMember="Profits" PaletteIndex="2">
+          <MeasureKey>
+            <Definition DataMember="FixedProfit" />
+          </MeasureKey>
+        </Entry>
+        <Entry DataSource="Profits" DataMember="Profits" PaletteIndex="3">
+          <MeasureKey>
+            <Definition DataMember="PotentialProfit" />
+          </MeasureKey>
+        </Entry>
+      </ColorSheme>
+      <Panes>
+        <Pane Name="Pane 3">
+          <AxisY TitleVisible="false" Title="ProfitLoss (Sum)" />
+          <Series>
+            <Simple Name="Realized Profit" SeriesType="StepLine">
+              <Value UniqueName="DataItem0" />
+            </Simple>
+            <Simple Name="Book Profit" SeriesType="StepArea">
+              <Value UniqueName="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+        <Pane Name="Pane 1" />
+      </Panes>
+      <ChartLegend Visible="false" />
+      <AxisX Visible="false" Title="Date (Day-Month-Year)" />
+    </Chart>
+    <Grid ComponentName="gridDashboardItem1" Name="Current Assets" DataSource="Profits" DataMember="Current Assets">
+      <InteractivityOptions IgnoreMasterFilters="true" />
+      <DataItems>
+        <Dimension DataMember="Ticker" UniqueName="DataItem1" />
+        <Measure DataMember="Profit" Name="Profit" UniqueName="DataItem3" />
+      </DataItems>
+      <FormatRules>
+        <GridItemFormatRule Name="FormatRule 1" DataItem="DataItem3">
+          <FormatConditionRangeSet ValueType="Number">
+            <RangeSet>
+              <Ranges>
+                <RangeInfo>
+                  <Value Type="System.Double" Value="-Infinity" />
+                  <IconSettings IconType="DirectionalRedTriangleDown" />
+                </RangeInfo>
+                <RangeInfo>
+                  <Value Type="System.Decimal" Value="0" />
+                  <IconSettings IconType="DirectionalGreenTriangleUp" />
+                </RangeInfo>
+              </Ranges>
+            </RangeSet>
+          </FormatConditionRangeSet>
+        </GridItemFormatRule>
+        <GridItemFormatRule Name="FormatRule 2" ApplyToRow="true" DataItem="DataItem3">
+          <FormatConditionValue Condition="Less">
+            <AppearanceSettings AppearanceType="FontRed" />
+            <Value1 Type="System.Decimal" Value="0" />
+          </FormatConditionValue>
+        </GridItemFormatRule>
+      </FormatRules>
+      <GridColumns>
+        <GridDimensionColumn Weight="69.069767441860463">
+          <Dimension UniqueName="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Weight="80.930232558139537">
+          <Measure UniqueName="DataItem3" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions ColumnWidthMode="AutoFitToContents" />
+    </Grid>
+    <Chart ComponentName="chartDashboardItem2" Name="Chart 1" ShowCaption="false" DataSource="Profits" DataMember="Stock History">
+      <DataItems>
+        <Measure DataMember="Open" UniqueName="DataItem0" />
+        <Measure DataMember="High" UniqueName="DataItem1" />
+        <Measure DataMember="Low" UniqueName="DataItem2" />
+        <Measure DataMember="Close" UniqueName="DataItem3" />
+        <Dimension DataMember="Date" DateTimeGroupInterval="DayMonthYear" UniqueName="DataItem6" />
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem6" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Visible="false" Title="Values" AlwaysShowZeroLevel="false" />
+          <Series>
+            <OpenHighLowClose Name="Price" SeriesType="Stock">
+              <Open UniqueName="DataItem0" />
+              <High UniqueName="DataItem1" />
+              <Low UniqueName="DataItem2" />
+              <Close UniqueName="DataItem3" />
+            </OpenHighLowClose>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend Visible="false" />
+      <AxisX Title="Date" />
+    </Chart>
+    <Pie ComponentName="pieDashboardItem1" Name="Profit &amp; Loss" DataSource="Profits" DataMember="Assets Structure" IsMasterFilterCrossDataSource="true" PieType="Donut" LabelContentType="None" ShowPieCaptions="false">
+      <InteractivityOptions IgnoreMasterFilters="true" MasterFilterMode="Multiple" />
+      <DataItems>
+        <Measure DataMember="Value" Name="Value (Sum)" UniqueName="DataItem0">
+          <NumericFormat FormatType="Currency" />
+        </Measure>
+        <Dimension DataMember="Category" UniqueName="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem1" />
+      </Arguments>
+      <ColorSheme>
+        <Entry DataMember="Assets Structure" PaletteIndex="1">
+          <DimensionKeys>
+            <DimensionKey>
+              <Definition DataMember="Category" />
+              <Value Type="System.String" Value="Loss" />
+            </DimensionKey>
+          </DimensionKeys>
+        </Entry>
+        <Entry DataMember="Assets Structure" PaletteIndex="0">
+          <DimensionKeys>
+            <DimensionKey>
+              <Definition DataMember="Category" />
+              <Value Type="System.String" Value="Profit" />
+            </DimensionKey>
+          </DimensionKeys>
+        </Entry>
+      </ColorSheme>
+      <Values>
+        <Value UniqueName="DataItem0" />
+      </Values>
+    </Pie>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup Orientation="Vertical">
+      <LayoutItem DashboardItem="cardDashboardItem1" Weight="21.172638436482085" />
+      <LayoutItem DashboardItem="chartDashboardItem2" Weight="43.159609120521175" />
+      <LayoutGroup Weight="35.667752442996743">
+        <LayoutItem DashboardItem="chartDashboardItem1" Weight="48.668796592119278" />
+        <LayoutItem DashboardItem="pieDashboardItem1" Weight="25.559105431309906" />
+        <LayoutItem DashboardItem="gridDashboardItem1" Weight="25.772097976570819" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

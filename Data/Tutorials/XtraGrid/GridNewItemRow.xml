@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>imageComboBoxEdit1</name>
+			<windowcaption>NewItemRow Position</windowcaption>
+			<description>Sets the view's NewItemRowPosition property which specifies the new item row's position within a view.</description>
+			<memberlist>NewItemRowPosition, OptionsView</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>XtraGrid Control</windowcaption>
+			<description>When an end user starts to edit the new item row, a new record is added to the data source and the InitNewRow event is raised. This event is handled to initialize the "Quantity", "UnitPrice", "Discount" and "OrderID" fields with default values.</description>
+			<memberlist>InitNewRow</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,515 @@
+﻿<XtraSerializer version="1.0" application="LayoutControl">
+  <property name="LookAndFeel" isnull="true" iskey="true">
+    <property name="SkinName">Caramel</property>
+    <property name="Style">Skin</property>
+    <property name="UseDefaultLookAndFeel">true</property>
+    <property name="UseWindowsXPTheme">false</property>
+  </property>
+  <property name="Items" iskey="true" value="24">
+    <property name="Item1" isnull="true" iskey="true">
+      <property name="Text">Group</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="GroupBordersVisible">true</property>
+      <property name="ParentName" />
+      <property name="Size">@3,Height=448@3,Width=724</property>
+      <property name="Name">Root</property>
+      <property name="TabbedGroupParentName" />
+      <property name="TextLocation">Top</property>
+      <property name="OptionsItemText" isnull="true" iskey="true">
+        <property name="TextAlignMode">UseParentOptions</property>
+        <property name="TextToControlDistance">5</property>
+      </property>
+      <property name="ExpandButtonVisible">false</property>
+      <property name="TextVisible">false</property>
+      <property name="Expanded">true</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="DefaultLayoutType">Vertical</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Location">@1,Y=0@1,X=0</property>
+      <property name="ExpandButtonLocation">Default</property>
+      <property name="CaptionImageVisible">true</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlGroup</property>
+      <property name="CaptionImageLocation">Default</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="CaptionImageIndex">-1</property>
+    </property>
+    <property name="Item2" isnull="true" iskey="true">
+      <property name="ExpandButtonVisible">true</property>
+      <property name="TextVisible">true</property>
+      <property name="TabbedGroupParentName" />
+      <property name="Name">layoutControlGroup2</property>
+      <property name="Text">Categories</property>
+      <property name="GroupBordersVisible">true</property>
+      <property name="TextLocation">Top</property>
+      <property name="CaptionImageVisible">true</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="Location">@1,Y=0@1,X=0</property>
+      <property name="OptionsItemText" isnull="true" iskey="true">
+        <property name="TextAlignMode">UseParentOptions</property>
+        <property name="TextToControlDistance">5</property>
+      </property>
+      <property name="Padding">0, 0, 0, 0</property>
+      <property name="ParentName">Root</property>
+      <property name="Spacing">2, 2, 2, 2</property>
+      <property name="ExpandButtonLocation">AfterText</property>
+      <property name="CaptionImageIndex">5</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="DefaultLayoutType">Vertical</property>
+      <property name="Expanded">true</property>
+      <property name="CaptionImageLocation">Default</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlGroup</property>
+      <property name="Size">@3,Height=210@3,Width=712</property>
+    </property>
+    <property name="Item3" isnull="true" iskey="true">
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="ControlName">textEdit1</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="Size">@2,Height=30@3,Width=518</property>
+      <property name="Location">@1,Y=0@1,X=0</property>
+      <property name="Name">layoutControlItem1</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="ParentName">layoutControlGroup2</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextVisible">true</property>
+      <property name="TextLocation">Left</property>
+      <property name="Text">&amp;Category Name:   </property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="ControlName">pictureEdit1</property>
+      <property name="MinSize">@3,Height=122@3,Width=188</property>
+      <property name="Size">@3,Height=122@3,Width=188</property>
+      <property name="Location">@1,Y=0@3,X=518</property>
+      <property name="Name">layoutControlItem7</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="ParentName">layoutControlGroup2</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="MaxSize">@3,Height=122@3,Width=188</property>
+      <property name="SizeConstraintsType">Custom</property>
+      <property name="TextVisible">false</property>
+      <property name="TextLocation">Default</property>
+      <property name="Text">Picture</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextSize">@1,Height=0@1,Width=0</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@3,Height=157@3,Width=518</property>
+      <property name="ParentName">layoutControlGroup2</property>
+      <property name="MinSize">@2,Height=51@2,Width=20</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@1,Height=0@1,Width=0</property>
+      <property name="TextLocation">Top</property>
+      <property name="Location">@2,Y=30@1,X=0</property>
+      <property name="Name">layoutControlItem8</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">&amp;Description:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+      <property name="ControlName">memoEdit1</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item6" isnull="true" iskey="true">
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="ControlName" isnull="true" />
+      <property name="MinSize">@2,Height=10@2,Width=10</property>
+      <property name="Size">@2,Height=35@3,Width=188</property>
+      <property name="Location">@3,Y=122@3,X=518</property>
+      <property name="Name">emptySpaceItem1</property>
+      <property name="TypeName">DevExpress.XtraLayout.EmptySpaceItem</property>
+      <property name="ParentName">layoutControlGroup2</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="MaxSize">@1,Height=0@1,Width=0</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextVisible">false</property>
+      <property name="TextLocation">Default</property>
+      <property name="Text">emptySpaceItem1</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextSize">@2,Height=20@1,Width=0</property>
+    </property>
+    <property name="Item7" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=188</property>
+      <property name="ParentName">layoutControlGroup2</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">false</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@3,Y=157@3,X=518</property>
+      <property name="Name">layoutControlItem2</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">DataNavigator</property>
+      <property name="TextSize">@1,Height=0@1,Width=0</property>
+      <property name="ControlName">dataNavigator1</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item8" isnull="true" iskey="true">
+      <property name="Text">Products</property>
+      <property name="Padding">0, 0, 0, 0</property>
+      <property name="GroupBordersVisible">true</property>
+      <property name="ParentName">Root</property>
+      <property name="Size">@3,Height=143@3,Width=712</property>
+      <property name="Name">layoutControlGroup3</property>
+      <property name="TabbedGroupParentName" />
+      <property name="TextLocation">Top</property>
+      <property name="OptionsItemText" isnull="true" iskey="true">
+        <property name="TextAlignMode">UseParentOptions</property>
+        <property name="TextToControlDistance">5</property>
+      </property>
+      <property name="ExpandButtonVisible">true</property>
+      <property name="TextVisible">true</property>
+      <property name="Expanded">true</property>
+      <property name="Spacing">2, 2, 2, 2</property>
+      <property name="DefaultLayoutType">Vertical</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Location">@3,Y=210@1,X=0</property>
+      <property name="ExpandButtonLocation">AfterText</property>
+      <property name="CaptionImageVisible">true</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlGroup</property>
+      <property name="CaptionImageLocation">Default</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="CaptionImageIndex">6</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=240</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@1,Y=0@1,X=0</property>
+      <property name="Name">layoutControlItem3</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">&amp;Product Name: </property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+      <property name="ControlName">textEdit2</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item10" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=190</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=30@3,Width=190</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@2,Height=30@3,Width=190</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@1,Y=0@3,X=516</property>
+      <property name="Name">layoutControlItem4</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">DataNavigator</property>
+      <property name="SizeConstraintsType">Custom</property>
+      <property name="TextSize">@1,Height=0@1,Width=0</property>
+      <property name="ControlName">dataNavigator2</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item11" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=516</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=30@1,X=0</property>
+      <property name="Name">layoutControlItem9</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Supplier:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+      <property name="ControlName">lookUpEdit1</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item12" isnull="true" iskey="true">
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="ControlName">calcEdit1</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="Size">@2,Height=30@3,Width=240</property>
+      <property name="Location">@2,Y=60@1,X=0</property>
+      <property name="Name">layoutControlItem11</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextVisible">true</property>
+      <property name="TextLocation">Left</property>
+      <property name="Text">Unit Price:</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=276</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=60@3,X=240</property>
+      <property name="Name">layoutControlItem12</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Reorder Level:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+      <property name="ControlName">spinEdit1</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=240</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=90@1,X=0</property>
+      <property name="Name">layoutControlItem13</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Units In Stock:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+      <property name="ControlName">spinEdit2</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item15" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=276</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=90@3,X=240</property>
+      <property name="Name">layoutControlItem14</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Units On Order:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+      <property name="ControlName">spinEdit3</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item16" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=90@3,Width=190</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="MinSize">@2,Height=29@2,Width=20</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@2,Height=29@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=30@3,X=516</property>
+      <property name="Name">layoutControlItem15</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Discontinued</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@1,Height=0@1,Width=0</property>
+      <property name="ControlName">checkEdit1</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="ControlName">textEdit4</property>
+      <property name="MinSize">@2,Height=30@3,Width=118</property>
+      <property name="Size">@2,Height=30@3,Width=276</property>
+      <property name="Location">@1,Y=0@3,X=240</property>
+      <property name="Name">layoutControlItem10</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="ParentName">layoutControlGroup3</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextVisible">true</property>
+      <property name="TextLocation">Left</property>
+      <property name="Text">Quantity Per Unit:  </property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextSize">@2,Height=20@2,Width=93</property>
+    </property>
+    <property name="Item18" isnull="true" iskey="true">
+      <property name="ExpandButtonVisible">true</property>
+      <property name="TextVisible">true</property>
+      <property name="TabbedGroupParentName" />
+      <property name="Name">layoutControlGroup4</property>
+      <property name="Text">Order Details</property>
+      <property name="GroupBordersVisible">true</property>
+      <property name="TextLocation">Top</property>
+      <property name="CaptionImageVisible">true</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="Location">@3,Y=353@1,X=0</property>
+      <property name="OptionsItemText" isnull="true" iskey="true">
+        <property name="TextAlignMode">AlignLocal</property>
+        <property name="TextToControlDistance">5</property>
+      </property>
+      <property name="Padding">0, 0, 0, 0</property>
+      <property name="ParentName">Root</property>
+      <property name="CaptionImageIndex">7</property>
+      <property name="DefaultLayoutType">Vertical</property>
+      <property name="Expanded">true</property>
+      <property name="ExpandButtonLocation">AfterText</property>
+      <property name="Spacing">2, 2, 2, 2</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Size">@2,Height=83@3,Width=712</property>
+      <property name="CaptionImageLocation">Default</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlGroup</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=243</property>
+      <property name="ParentName">layoutControlGroup4</property>
+      <property name="MinSize">@2,Height=30@2,Width=74</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@1,Y=0@1,X=0</property>
+      <property name="Name">layoutControlItem5</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Order ID:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=49</property>
+      <property name="ControlName">textEdit3</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item20" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=190</property>
+      <property name="ParentName">layoutControlGroup4</property>
+      <property name="MinSize">@2,Height=30@3,Width=190</property>
+      <property name="TextToControlDistance">0</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">false</property>
+      <property name="MaxSize">@2,Height=30@3,Width=190</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@1,Y=0@3,X=516</property>
+      <property name="Name">layoutControlItem6</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">DataNavigator</property>
+      <property name="SizeConstraintsType">Custom</property>
+      <property name="TextSize">@1,Height=0@1,Width=0</property>
+      <property name="ControlName">dataNavigator3</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item21" isnull="true" iskey="true">
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="ControlName">calcEdit2</property>
+      <property name="MinSize">@2,Height=30@2,Width=74</property>
+      <property name="Size">@2,Height=30@3,Width=243</property>
+      <property name="Location">@2,Y=30@1,X=0</property>
+      <property name="Name">layoutControlItem16</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="ParentName">layoutControlGroup4</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextVisible">true</property>
+      <property name="TextLocation">Left</property>
+      <property name="Text">Unit Price:</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+      <property name="TextSize">@2,Height=20@2,Width=49</property>
+    </property>
+    <property name="Item22" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=190</property>
+      <property name="ParentName">layoutControlGroup4</property>
+      <property name="MinSize">@2,Height=30@2,Width=74</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=30@3,X=516</property>
+      <property name="Name">layoutControlItem19</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Sub Total:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@1,Height=0@2,Width=49</property>
+      <property name="ControlName">textEdit5</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item23" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=273</property>
+      <property name="ParentName">layoutControlGroup4</property>
+      <property name="MinSize">@2,Height=30@2,Width=74</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@2,Y=30@3,X=243</property>
+      <property name="Name">layoutControlItem17</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">&amp;Quantity:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=49</property>
+      <property name="ControlName">spinEdit4</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+    <property name="Item24" isnull="true" iskey="true">
+      <property name="Padding">5, 5, 5, 5</property>
+      <property name="Size">@2,Height=30@3,Width=273</property>
+      <property name="ParentName">layoutControlGroup4</property>
+      <property name="MinSize">@2,Height=30@2,Width=74</property>
+      <property name="TextToControlDistance">5</property>
+      <property name="TextAlignMode">UseParentOptions</property>
+      <property name="TypeName">DevExpress.XtraLayout.LayoutControlItem</property>
+      <property name="TextVisible">true</property>
+      <property name="MaxSize">@2,Height=30@1,Width=0</property>
+      <property name="TextLocation">Left</property>
+      <property name="Location">@1,Y=0@3,X=243</property>
+      <property name="Name">layoutControlItem18</property>
+      <property name="ShowInCustomizationForm">true</property>
+      <property name="Text">Discount:</property>
+      <property name="SizeConstraintsType">Default</property>
+      <property name="TextSize">@2,Height=20@2,Width=49</property>
+      <property name="ControlName">spinEdit5</property>
+      <property name="Spacing">0, 0, 0, 0</property>
+    </property>
+  </property>
+</XtraSerializer>

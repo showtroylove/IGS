@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>gridControl1</name>
+				<windowcaption>XtraGrid Control</windowcaption>
+				<description>The CustomUnboundColumnData event is handled to provide data for and to save modified data from unbound columns. The data provided for unbound columns is represented by a custom data source (the Record object).<newline/>
+				The "Full Name" column isn't assigned to any data field in a bound data source, it displays custom read-only information which is obtained from the values in the bound "First Name" and "Last Name" columns. The CustomColumnDisplayText event is handled for this purpose.</description>
+				<memberlist>CustomUnboundColumnData, CustomColumnDisplayText, UnboundType</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

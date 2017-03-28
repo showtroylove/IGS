@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="DevExpress.DevAV.Views.DraftView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"
+        mc:Ignorable="d"
+        d:DesignHeight="581" d:DesignWidth="1169">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+        <dxwui:PageAdornerControl Header="Under Construction" />
+        <Image Grid.Row="1" Source="pack://application:,,,/DevExpress.HybridApp.Wpf;component/Images/UnderConstruction.png" Stretch="None" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+    
+</UserControl>

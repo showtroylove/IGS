@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>sbCustomize</name>
+			<windowcaption>Customize</windowcaption>
+			<description>Shows or hides the Customization Form. The customization form provides facilities for adding and removing rows from a vertical grid at runtime using drag and drop.</description>
+			<memberlist>CustomizationForm, RowsCustomization, DestroyCustomization</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>ceHideOddRows</name>
+			<windowcaption>Hide Odd Rows</windowcaption>
+			<description>This check editor controls the visibility of odd rows within the view. If checked, the odd rows are hidden.</description>
+			<memberlist>CustomRowFilter</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+<controlentry>
+		<control>
+			<name>ceHideEvenRows</name>
+			<windowcaption>Hide Even Rows</windowcaption>
+			<description>This check editor controls the visibility of even rows within the view. If checked, the even rows are hidden.</description>
+			<memberlist>CustomRowFilter</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+<controlentry>
+		<control>
+			<name>ceRegion</name>
+			<windowcaption>Hide Rows if the Region Value is NULL</windowcaption>
+			<description>If checked, those rows whose value in the Region column is DBNull are hidden.</description>
+			<memberlist>CustomRowFilter</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+<controlentry>
+		<control>
+			<name>gridControl1</name>
+			<windowcaption>Grid View</windowcaption>
+			<description>The view's CustomRowFilter event is handled to implement custom row filtering.</description>
+			<memberlist>CustomRowFilter</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+
+</controls>
+</totalinfo>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>radioGroup1</name>
+			<windowcaption>Scroll Visibility</windowcaption>
+			<description>Allows specifying when horizontal and vertical scroll bars should be displayed.</description>
+			<memberlist>ScrollVisibility</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>radioGroup2</name>
+			<windowcaption>Layout Style</windowcaption>
+			<description>Allows specifying the vertical grid's layout style.</description>
+			<memberlist>LayoutStyle</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

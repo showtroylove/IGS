@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+	<controls>
+		<controlentry>
+			<control>
+				<name>checkEdit1</name>
+				<windowcaption>Standard Filter Button</windowcaption>
+				<description>Specifies whether the filter buttons should be painted in the standard or a custom manner. Each time the editor's checked state is changed the view is forced to repaint its column headers. For this purpose the CheckedChanged event is handled to call the view's InvalidateColumnHeader method.<newline/>
+				If the editor is checked, the filter buttons are painted in the standard manner using the default painting mechanism. Otherwise, if unchecked, the filter buttons are custom painted. The custom painting is implemented in the DrawCustomFilterButton method which is called in the CustomDrawColumnHeader event handler.</description>
+				<memberlist>CustomDrawColumnHeader, InvalidateColumnHeader</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+		<controlentry>
+			<control>
+				<name>checkEdit2</name>
+				<windowcaption>Standard Sorting Glyphs</windowcaption>
+				<description>Specifies whether the sorting glyphs should be painted in the standard manner or a custom manner. Each time the editor's checked state is changed the view is forced to repaint its column headers. For this purpose the CheckedChanged event is handled to call the view's InvalidateColumnHeader method.<newline/>
+				If the editor is checked, the sorting glyphs are painted in a standard manner using the default painting mechanism. Otherwise, if unchecked they are custom painted. The custom painting is implemented in the DrawCustomSortedShape method which is called in the CustomDrawColumnHeader event handler.</description>
+				<memberlist>CustomDrawColumnHeader, InvalidateColumnHeader</memberlist>
+				<dtimage/>
+			</control>
+		</controlentry>
+	</controls>
+</totalinfo>

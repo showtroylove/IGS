@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>checkEdit1</name>
+			<windowcaption>Editable</windowcaption>
+			<description>This check editor controls whether end users are allowed to invoke cell editors.</description>
+			<memberlist>OptionsBehavior, Editable</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+	<controlentry>
+		<control>
+			<name>imageComboBoxEdit1</name>
+			<windowcaption>Editor Show Mode</windowcaption>
+			<description>This image combo box allows you to select how a cell editor is activated.</description>
+			<memberlist>OptionsBehavior, EditorShowMode</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+		<controlentry>
+		<control>
+			<name>imageComboBoxEdit2</name>
+			<windowcaption>Show Button Mode</windowcaption>
+			<description>This image combo box allows you to select which cells should display editor buttons.</description>
+			<memberlist>EditorShowMode, ShowButtonMode</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="H:\Work\XML Schemes\module-new.xsd">
+<controls>
+	<controlentry>
+		<control>
+			<name>vGridControl1</name>
+			<windowcaption>XtraVerticalGrid Control</windowcaption>
+			<description>When a form is being loaded, the vertical grid is populated with rows using the CreateRow method. This method creates a row, adds it to the vertical grid's Rows collection, binds it to the specified field in the bound data source, specifies the row's caption and applies formatting to its cell values. The row's formatting settings are specified by the Format property represented by the FormatInfo class.</description>
+			<memberlist>Format, FormatInfo</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>

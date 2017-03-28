@@ -1,0 +1,8 @@
+Zeichenkodierung
+
+Eine Zeichenkodierung (englisch Character encoding, kurz Encoding) erlaubt die eindeutige Zuordnung von Schriftzeichen (Buchstaben oder Ziffern) und Symbolen innerhalb eines Zeichensatzes. In der Elektronischen Datenverarbeitung werden Zeichen über einen Zahlenwert kodiert und eignen sich damit für Übertragungen oder Speicherungen. Der deutsche Umlaut Ü wird zum Beispiel im ISO-8859-1-Zeichensatz mit dem Dezimalwert 220 kodiert. Im EBCDIC-Zeichensatz kodiert der Wert 220 die geschweifte Klammer }. Zur richtigen Darstellung eines Zeichens muss also die Zeichenkodierung bekannt sein; der Zahlenwert allein reicht nicht aus.
+Zahlenwerte aus Zeichenkodierungen lassen sich auf verschiedene Art transportieren, zum Beispiel durch optische, akustische oder elektrische Signale, in aller Regel durch Abfolgen von
+* langem und kurzem Signal (bspw. bei Morsezeichen),
+* hohem und tiefem Ton (bspw. akustische Übertragung bei Faxgeräten),
+* hoher und niedriger Spannung (bspw. bei der elektronischen Datenspeicherung).
+Binäre Systeme hatten seit jeher eine besondere Bedeutung, da mit steigender Anzahl der Basiselemente des Codes die Gefahr von Verwechslungen steigt.

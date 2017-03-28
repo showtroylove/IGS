@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<totalinfo>
+<controls>
+<controlentry>
+		<control>
+			<name>comboBoxEdit1</name>
+			<windowcaption>Skin Name</windowcaption>
+			<description>Selects the skin and applies it to the grid. The default skins are contained within the DevExpress.Skins.SkinManager.Default.Skins collection.</description>
+			<memberlist>SkinContainer, SkinManager, LookAndFeel</memberlist>
+			<dtimage></dtimage>
+		</control>
+	</controlentry>
+</controls>
+</totalinfo>
