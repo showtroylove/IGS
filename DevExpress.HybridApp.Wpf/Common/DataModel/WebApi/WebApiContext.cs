@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Windows.Threading;
 using DevExpress.DevAV.Common.DataModel;
 using EntityState = System.Data.Entity.EntityState;
 using DevExpress.DevAV.Common.DataModel.WebApi;
@@ -30,12 +29,12 @@ namespace DevExpress.DevAV.DevAVDbDataModel
             get
             {
                 if (!IsLoaded)
-                    LoadEntitiesAsync();
+                    LoadEntities();
+                    //Task.Run(() => LoadEntitiesAsync());
                 return _entities;
             }
         }
-
-        public void LoadEntitiesAsync(bool forceLoad = false)
+        public void LoadEntities(bool forceLoad = false)
         {
             if (forceLoad)
             {
@@ -46,7 +45,41 @@ namespace DevExpress.DevAV.DevAVDbDataModel
                 return;
             }
 
-            _cts = LoadCoreAsync().Result;
+            LoadCore();
+            //LoadCoreAsync().ContinueWith(task =>
+            //{
+            //    if (task.IsFaulted)
+            //        return;
+
+            //    _cts = task.Result;
+            //});
+        }
+
+        private void LoadCore()
+        {
+            IsLoading = true;
+            var cts = new CancellationTokenSource();
+            WebApiSource.JsonRestClient.CancelToken = cts.Token;
+            var entities = WebApiSource.JsonRestClient.GetAllAsync();
+
+            entities.Wait(30000);
+
+            IsLoading = false;
+            entities.Result.ForEach(e => _entities.Add(e, EntityState.Unchanged));
+        }
+
+        public async Task LoadEntitiesAsync(bool forceLoad = false)
+        {
+            if (forceLoad)
+            {
+                _cts?.Cancel();
+            }
+            else if (IsLoading)
+            {
+                return;
+            }
+
+            _cts = await LoadCoreAsync();
             //LoadCoreAsync().ContinueWith(task =>
             //{
             //    if (task.IsFaulted)

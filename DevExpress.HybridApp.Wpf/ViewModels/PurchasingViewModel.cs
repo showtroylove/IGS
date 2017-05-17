@@ -18,13 +18,13 @@ namespace DevExpress.DevAV.ViewModels {
         {
             var modules = new[] 
             {
+                new PurchasingModuleDescription("Team", "EmployeeCollectionView", PlanningGroup, FiltersSettings.GetEmployeesFilterTree(this), "Employees"),
+                new PurchasingModuleDescription("Settings", "AppSettingsCollectionMainView", SystemGroup, FiltersSettings.GetAppSettingsDetailFilterTree(this), "Automation"),
                 new PurchasingModuleDescription("Dashboard", "DashboardView", PlanningGroup, FiltersSettings.GetDashboardFilterTree(this)),
                 new PurchasingModuleDescription("Tasks", "TaskCollectionView", PlanningGroup, FiltersSettings.GetTasksFilterTree(this)),
                 new PurchasingModuleDescription("Setup", "ProductCollectionView", OperationsGroup, FiltersSettings.GetProductsFilterTree(this), "Products"),
                 new PurchasingModuleDescription("Supply", "OrderCollectionView", OperationsGroup, FiltersSettings.GetSalesFilterTree(this), "Sales"),
-                new PurchasingModuleDescription("Companies", "CustomerCollectionView", SystemGroup, FiltersSettings.GetCustomersFilterTree(this), "Customers"),
-                new PurchasingModuleDescription("Team", "EmployeeCollectionView", PlanningGroup, FiltersSettings.GetEmployeesFilterTree(this), "Employees"),
-                new PurchasingModuleDescription("Settings", "AppSettingsCollectionMainView", SystemGroup, FiltersSettings.GetAppSettingsDetailFilterTree(this), "Automation")
+                new PurchasingModuleDescription("Companies", "CustomerCollectionView", SystemGroup, FiltersSettings.GetCustomersFilterTree(this), "Customers")
             };
 
             foreach(var module in modules) 

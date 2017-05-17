@@ -5,12 +5,14 @@ using DevExpress.Mvvm;
 using DevExpress.Mvvm.POCO;
 using System;
 
+
 namespace DevExpress.DevAV.ViewModels {
     internal static class FiltersSettings {
 
-        public static FilterTreeViewModel<IGS.Data.Model.AppSettings, int> GetAppSettingsDetailFilterTree(object parentViewModel) => FilterTreeViewModel<IGS.Data.Model.AppSettings, int>.Create(
-            new FilterTreeModelPageSpecificSettings<Settings>(Settings.Default, "Status", x => x.AppSettingsDetailStaticFilters, null, null),
-            CreateAppSettingsUnitOfWork().AppSettings, RegisterEntityChangedMessageHandler<Employee, long>
+        public static FilterTreeViewModel<IGS.Data.Model.AppSettings, int> GetAppSettingsDetailFilterTree(object parentViewModel) => 
+            FilterTreeViewModel<IGS.Data.Model.AppSettings, int>.Create(
+            new FilterTreeModelPageSpecificSettings<Settings>(Settings.Default, null, null, null, null),
+            CreateAppSettingsUnitOfWork().AppSettings, RegisterEntityChangedMessageHandler<IGS.Data.Model.AppSettings, int>
             ).SetParentViewModel(parentViewModel);
 
         public static FilterTreeViewModel<Employee, long> GetDashboardFilterTree(object parentViewModel) => FilterTreeViewModel<Employee, long>.Create(

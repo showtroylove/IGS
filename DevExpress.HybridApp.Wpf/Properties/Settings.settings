@@ -138,43 +138,57 @@
         </Value>
     </Setting>
     <Setting Name="EmployeesStaticFilters" Type="DevExpress.DevAV.ViewModels.FilterInfoList" Scope="User">
-      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfFilterInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <Value Profile="(Default)">
+          &lt;ArrayOfFilterInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+            &lt;FilterInfo&gt;
+              &lt;Name&gt;All&lt;/Name&gt;
+              &lt;ImageUri&gt;Resources/Employees/All.png&lt;/ImageUri&gt;
+            &lt;/FilterInfo&gt;
+            &lt;FilterInfo&gt;
+              &lt;Name&gt;Salaried&lt;/Name&gt;
+              &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Salaried#&lt;/FilterCriteria&gt;
+              &lt;ImageUri&gt;Resources/Employees/Salaried.png&lt;/ImageUri&gt;
+            &lt;/FilterInfo&gt;
+            &lt;FilterInfo&gt;
+              &lt;Name&gt;Commission&lt;/Name&gt;
+              &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Commission#&lt;/FilterCriteria&gt;
+              &lt;ImageUri&gt;Resources/Employees/Commission.png&lt;/ImageUri&gt;
+            &lt;/FilterInfo&gt;
+            &lt;FilterInfo&gt;
+              &lt;Name&gt;Contract&lt;/Name&gt;
+              &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Contract#&lt;/FilterCriteria&gt;
+              &lt;ImageUri&gt;Resources/Employees/Probation.png&lt;/ImageUri&gt;
+            &lt;/FilterInfo&gt;
+            &lt;FilterInfo&gt;
+              &lt;Name&gt;Terminated&lt;/Name&gt;
+              &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Terminated#&lt;/FilterCriteria&gt;
+              &lt;ImageUri&gt;Resources/Employees/Terminated.png&lt;/ImageUri&gt;
+            &lt;/FilterInfo&gt;
+            &lt;FilterInfo&gt;
+              &lt;Name&gt;On Leave&lt;/Name&gt;
+              &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,OnLeave#&lt;/FilterCriteria&gt;
+              &lt;ImageUri&gt;Resources/Employees/OnLeave.png&lt;/ImageUri&gt;
+            &lt;/FilterInfo&gt;
+          &lt;/ArrayOfFilterInfo&gt;
+        </Value>
+    </Setting>
+    <Setting Name="AppSettingsDetailStaticFilters" Type="DevExpress.DevAV.ViewModels.FilterInfoList" Scope="User">
+      <Value Profile="(Default)">&lt;ArrayOfFilterInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;FilterInfo&gt;
     &lt;Name&gt;All&lt;/Name&gt;
-    &lt;ImageUri&gt;Resources/Employees/All.png&lt;/ImageUri&gt;
+    &lt;ImageUri&gt;Resources/Menu/Automation.png&lt;/ImageUri&gt;
   &lt;/FilterInfo&gt;
   &lt;FilterInfo&gt;
-    &lt;Name&gt;Salaried&lt;/Name&gt;
-    &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Salaried#&lt;/FilterCriteria&gt;
+    &lt;Name&gt;Application&lt;/Name&gt;
+    &lt;FilterCriteria&gt;[Type] = ##Enum#IGS.Data.Model.AppSettingsTypeEnum,Application#&lt;/FilterCriteria&gt;
     &lt;ImageUri&gt;Resources/Employees/Salaried.png&lt;/ImageUri&gt;
   &lt;/FilterInfo&gt;
   &lt;FilterInfo&gt;
-    &lt;Name&gt;Commission&lt;/Name&gt;
-    &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Commission#&lt;/FilterCriteria&gt;
+    &lt;Name&gt;User&lt;/Name&gt;
+    &lt;FilterCriteria&gt;[Type] = ##Enum#IGS.Data.Model.AppSettingsTypeEnum,User#&lt;/FilterCriteria&gt;
     &lt;ImageUri&gt;Resources/Employees/Commission.png&lt;/ImageUri&gt;
   &lt;/FilterInfo&gt;
-  &lt;FilterInfo&gt;
-    &lt;Name&gt;Contract&lt;/Name&gt;
-    &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Contract#&lt;/FilterCriteria&gt;
-    &lt;ImageUri&gt;Resources/Employees/Probation.png&lt;/ImageUri&gt;
-  &lt;/FilterInfo&gt;
-  &lt;FilterInfo&gt;
-    &lt;Name&gt;Terminated&lt;/Name&gt;
-    &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Terminated#&lt;/FilterCriteria&gt;
-    &lt;ImageUri&gt;Resources/Employees/Terminated.png&lt;/ImageUri&gt;
-  &lt;/FilterInfo&gt;
-  &lt;FilterInfo&gt;
-    &lt;Name&gt;On Leave&lt;/Name&gt;
-    &lt;FilterCriteria&gt;[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,OnLeave#&lt;/FilterCriteria&gt;
-    &lt;ImageUri&gt;Resources/Employees/OnLeave.png&lt;/ImageUri&gt;
-  &lt;/FilterInfo&gt;
 &lt;/ArrayOfFilterInfo&gt;</Value>
-    </Setting>
-    <Setting Name="AppSettingsDetailStaticFilters" Type="DevExpress.DevAV.ViewModels.FilterInfoList" Scope="User">
-      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfFilterInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
- &lt;/ArrayOfFilterInfo&gt;</Value>
     </Setting>
   </Settings>
 </SettingsFile>

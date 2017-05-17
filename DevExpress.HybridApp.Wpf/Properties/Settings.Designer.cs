@@ -201,38 +201,27 @@ namespace DevExpress.DevAV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"<?xml version=""1.0"" encoding=""utf-16""?>
-<ArrayOfFilterInfo xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
-  <FilterInfo>
-    <Name>All</Name>
-    <ImageUri>Resources/Employees/All.png</ImageUri>
-  </FilterInfo>
-  <FilterInfo>
-    <Name>Salaried</Name>
-    <FilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Salaried#</FilterCriteria>
-    <ImageUri>Resources/Employees/Salaried.png</ImageUri>
-  </FilterInfo>
-  <FilterInfo>
-    <Name>Commission</Name>
-    <FilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Commission#</FilterCriteria>
-    <ImageUri>Resources/Employees/Commission.png</ImageUri>
-  </FilterInfo>
-  <FilterInfo>
-    <Name>Contract</Name>
-    <FilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Contract#</FilterCriteria>
-    <ImageUri>Resources/Employees/Probation.png</ImageUri>
-  </FilterInfo>
-  <FilterInfo>
-    <Name>Terminated</Name>
-    <FilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Terminated#</FilterCriteria>
-    <ImageUri>Resources/Employees/Terminated.png</ImageUri>
-  </FilterInfo>
-  <FilterInfo>
-    <Name>On Leave</Name>
-    <FilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,OnLeave#</FilterCriteria>
-    <ImageUri>Resources/Employees/OnLeave.png</ImageUri>
-  </FilterInfo>
-</ArrayOfFilterInfo>")]
+        [global::System.Configuration.DefaultSettingValueAttribute("\r\n          <ArrayOfFilterInfo xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instan" +
+            "ce\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n            <FilterInfo>\r\n   " +
+            "           <Name>All</Name>\r\n              <ImageUri>Resources/Employees/All.png" +
+            "</ImageUri>\r\n            </FilterInfo>\r\n            <FilterInfo>\r\n              " +
+            "<Name>Salaried</Name>\r\n              <FilterCriteria>[Status] = ##Enum#DevExpres" +
+            "s.DevAV.EmployeeStatus,Salaried#</FilterCriteria>\r\n              <ImageUri>Resou" +
+            "rces/Employees/Salaried.png</ImageUri>\r\n            </FilterInfo>\r\n            <" +
+            "FilterInfo>\r\n              <Name>Commission</Name>\r\n              <FilterCriteri" +
+            "a>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,Commission#</FilterCriteria>" +
+            "\r\n              <ImageUri>Resources/Employees/Commission.png</ImageUri>\r\n       " +
+            "     </FilterInfo>\r\n            <FilterInfo>\r\n              <Name>Contract</Name" +
+            ">\r\n              <FilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStat" +
+            "us,Contract#</FilterCriteria>\r\n              <ImageUri>Resources/Employees/Proba" +
+            "tion.png</ImageUri>\r\n            </FilterInfo>\r\n            <FilterInfo>\r\n      " +
+            "        <Name>Terminated</Name>\r\n              <FilterCriteria>[Status] = ##Enum" +
+            "#DevExpress.DevAV.EmployeeStatus,Terminated#</FilterCriteria>\r\n              <Im" +
+            "ageUri>Resources/Employees/Terminated.png</ImageUri>\r\n            </FilterInfo>\r" +
+            "\n            <FilterInfo>\r\n              <Name>On Leave</Name>\r\n              <F" +
+            "ilterCriteria>[Status] = ##Enum#DevExpress.DevAV.EmployeeStatus,OnLeave#</Filter" +
+            "Criteria>\r\n              <ImageUri>Resources/Employees/OnLeave.png</ImageUri>\r\n " +
+            "           </FilterInfo>\r\n          </ArrayOfFilterInfo>\r\n        ")]
         public global::DevExpress.DevAV.ViewModels.FilterInfoList EmployeesStaticFilters {
             get {
                 return ((global::DevExpress.DevAV.ViewModels.FilterInfoList)(this["EmployeesStaticFilters"]));
@@ -244,9 +233,22 @@ namespace DevExpress.DevAV.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("<?xml version=\"1.0\" encoding=\"utf-16\"?>\r\n<ArrayOfFilterInfo xmlns:xsi=\"http://www" +
-            ".w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\r\n" +
-            " </ArrayOfFilterInfo>")]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"<ArrayOfFilterInfo xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">
+  <FilterInfo>
+    <Name>All</Name>
+    <ImageUri>Resources/Menu/Automation.png</ImageUri>
+  </FilterInfo>
+  <FilterInfo>
+    <Name>Application</Name>
+    <FilterCriteria>[Type] = ##Enum#IGS.Data.Model.AppSettingsTypeEnum,Application#</FilterCriteria>
+    <ImageUri>Resources/Employees/Salaried.png</ImageUri>
+  </FilterInfo>
+  <FilterInfo>
+    <Name>User</Name>
+    <FilterCriteria>[Type] = ##Enum#IGS.Data.Model.AppSettingsTypeEnum,User#</FilterCriteria>
+    <ImageUri>Resources/Employees/Commission.png</ImageUri>
+  </FilterInfo>
+</ArrayOfFilterInfo>")]
         public global::DevExpress.DevAV.ViewModels.FilterInfoList AppSettingsDetailStaticFilters {
             get {
                 return ((global::DevExpress.DevAV.ViewModels.FilterInfoList)(this["AppSettingsDetailStaticFilters"]));

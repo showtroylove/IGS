@@ -151,7 +151,7 @@ namespace DevExpress.DevAV.ViewModels {
         {
             var viewModel = _viewModel as ISupportFiltering<TEntity>;
             if(viewModel != null)
-                viewModel.FilterExpression = ActiveFilterItem == null ? null : GetWhereExpression(ActiveFilterItem.FilterCriteria);
+                viewModel.FilterExpression = ActiveFilterItem == null ? GetWhereExpression(ActiveFilterItem?.FilterCriteria) : GetWhereExpression(ActiveFilterItem.FilterCriteria);
         }
 
         private ObservableCollection<FilterItem> CreateFilterItems(IEnumerable<FilterInfo> filters) => filters == null ? new ObservableCollection<FilterItem>() : new ObservableCollection<FilterItem>(filters.Select(x => CreateFilterItem(x.Name, CriteriaOperator.Parse(x.FilterCriteria), x.ImageUri)));
@@ -218,9 +218,15 @@ namespace DevExpress.DevAV.ViewModels {
 
         private int GetEntityCount(CriteriaOperator criteria) => _entities.Where(GetWhereExpression(criteria)).Count();
 
-        private Expression<Func<TEntity, bool>> GetWhereExpression(CriteriaOperator criteria) => this.IsInDesignMode()
-            ? CriteriaOperatorToExpressionConverter.GetLinqToObjectsWhere<TEntity>(criteria)
-            : CriteriaOperatorToExpressionConverter.GetGenericWhere<TEntity>(criteria);
+        private Expression<Func<TEntity, bool>> GetWhereExpression(CriteriaOperator criteria)
+        {
+            Expression<Func<TEntity, bool>> result;
+            if (this.IsInDesignMode())
+                result = CriteriaOperatorToExpressionConverter.GetLinqToObjectsWhere<TEntity>(criteria);
+            else
+                result = CriteriaOperatorToExpressionConverter.GetGenericWhere<TEntity>(criteria);
+            return result;
+        }
 
         private IDialogService FilterDialogService => this.GetRequiredService<IDialogService>("FilterDialogService");
     }

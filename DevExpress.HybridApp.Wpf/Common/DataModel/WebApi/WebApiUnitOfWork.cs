@@ -81,41 +81,4 @@ namespace DevExpress.DevAV.DevAVDbDataModel
         }
         #endregion
     }
-
-    //public class WebApiUnitOfWork<TWebApiContext>  : IUnitOfWork 
-    //    where TEntity: class, new()
-    //{
-    //    private static readonly CancellationTokenSource Cts = new CancellationTokenSource();
-
-    //    public static async Task<IEnumerable<TEntity>> JsonRestHelper(CancellationToken token, string action = null )
-    //    {
-    //        var baseadd = (Uri)Default[Default.CurrentService] ?? Default.EnvironmentUri;
-    //        using (var handler = new HttpClientHandler
-    //        {
-    //            CookieContainer = new CookieContainer(),
-    //            PreAuthenticate = true,
-    //            UseDefaultCredentials = true,
-    //            UseCookies = true
-    //        })
-    //        using (var client = new HttpClient(handler) {BaseAddress = baseadd})
-    //        {
-    //            var json = new JsonRestClient<TEntity>(client, client.BaseAddress) {CancelToken = token};
-    //            var results = await json.GetAllAsync($"{client.BaseAddress}/{action}");
-    //            return results;
-    //        }
-    //    }
-
-    //    public static IEnumerable<TEntity> GetAppSettings()
-    //    {
-    //        var results = Task.Run(()=> JsonRestHelper(Cts.Token));
-    //        return results.Result;
-    //    }
-
-    //    public void SaveChanges()
-    //    {
-    //        throw new NotImplementedException();
-    //    }
-
-    //    public bool HasChanges() => false;
-    //}
 }

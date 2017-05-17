@@ -39,8 +39,8 @@ namespace DevExpress.DevAV.ViewModels {
         #region ISupportFiltering
         Expression<Func<IGS.Data.Model.AppSettings, bool>> ISupportFiltering<IGS.Data.Model.AppSettings>.FilterExpression
         {
-            get { return FilterExpression; }
-            set { FilterExpression = value; }
+            get => FilterExpression;
+            set => FilterExpression = value;
         }
         #endregion
     }
